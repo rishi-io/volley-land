@@ -1,0 +1,13 @@
+{
+  "format": 1,
+  "description": "Subjects shared by the seeded curricula. Subjects are not tied to a curriculum: a topic joins a subject to a level.",
+  "subjects": [
+    { "id": "mathematics", "name": "Mathematics", "description": "Number, algebra, geometry, statistics and probability." },
+    { "id": "science", "name": "Science", "description": "Integrated science: physics, chemistry and biology taught as one subject (as in CBSE)." },
+    { "id": "social-science", "name": "Social Science", "description": "History, geography, political science and economics taught as one subject (as in CBSE)." },
+    { "id": "biology", "name": "Biology", "description": "Living things: cells, organisms, ecosystems, inheritance and health." },
+    { "id": "chemistry", "name": "Chemistry", "description": "Substances, their structure and properties, and how they react." },
+    { "id": "physics", "name": "Physics", "description": "Energy, forces, electricity, waves, matter and space." },
+    { "id": "geography", "name": "Geography", "description": "Physical landscapes, natural hazards, people and the environment." }
+  ]
+}

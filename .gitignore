@@ -1,0 +1,19 @@
+.provenmap/
+node_modules/
+dist/
+.next/
+*.tsbuildinfo
+coverage/
+.env
+.env.*
+!.env.example
+.yarn/*
+!.yarn/releases
+test-results/
+playwright-report/
+.turbo/
+# Local admin settings (JsonFileSettingsStore)
+apps/server/data/
+
+# Voice Design samples from yarn audio:generate (listen locally, not shipped)
+scripts/audio/previews/

@@ -1,0 +1,636 @@
+{
+  "version": 2,
+  "profileHash": "1b8a364df9a344a2b49989613364e0cb22231086c9c5ce664524f0576503c7a9",
+  "files": [
+    {
+      "path": ".claude/skills/typescript-advanced-types/SKILL.md",
+      "hash": "067e7a87a01de0dd95b7e8b54b5f0b80a37c2e0259ff16b2024d1115216f6150",
+      "sourceSlug": "typescript-advanced-types",
+      "kind": "skill",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/typescript-advanced-types/references/details.md",
+      "hash": "036a1dd41283384f086ac0eeb4f63c899b042ad68815a8ce00afebf606b55c44",
+      "sourceSlug": "typescript-advanced-types",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/supabase-postgres-best-practices/CHANGELOG.md",
+      "hash": "751ad110037c85d400018c9894716a04fa46357ff55c22b1169b280752e19e88",
+      "sourceSlug": "supabase-postgres-best-practices",
+      "kind": "asset",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/supabase-postgres-best-practices/SKILL.md",
+      "hash": "fc9b116c06e07e811d399a67c462643751b2039f4bcd288d687307c6ee86cd12",
+      "sourceSlug": "supabase-postgres-best-practices",
+      "kind": "skill",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/supabase-postgres-best-practices/references/_contributing.md",
+      "hash": "191e039e7d94764e6073410b513b559f9a594e0fdf0252a30c2a2986df2ab3bc",
+      "sourceSlug": "supabase-postgres-best-practices",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/supabase-postgres-best-practices/references/_sections.md",
+      "hash": "c9e992612b422c7122de0b7542ebc2450db283edaab08cfe86c6d657fcccccd5",
+      "sourceSlug": "supabase-postgres-best-practices",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/supabase-postgres-best-practices/references/_template.md",
+      "hash": "6299954250f212caabe339d752c3e5313a8e07d1a182a4e4b425baee91df1bd2",
+      "sourceSlug": "supabase-postgres-best-practices",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/supabase-postgres-best-practices/references/advanced-full-text-search.md",
+      "hash": "40c2606bbb4c4dce31308f201b24cc7f58c7df05b1d9c6856fe2b888d3b7cf28",
+      "sourceSlug": "supabase-postgres-best-practices",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/supabase-postgres-best-practices/references/advanced-jsonb-indexing.md",
+      "hash": "24cacf6a8bc35901dd566d24502ce8e57f810a5c196b897e61d52726e521d106",
+      "sourceSlug": "supabase-postgres-best-practices",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/supabase-postgres-best-practices/references/conn-idle-timeout.md",
+      "hash": "630588902c00fcec59a5988cc5d042f76dcf2c923a535abfd8c47dca205eaed5",
+      "sourceSlug": "supabase-postgres-best-practices",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/supabase-postgres-best-practices/references/conn-limits.md",
+      "hash": "11b2a67a7c7679cbbc5d807bbb17e69c98484a581d0c8b929c03408f412b81b2",
+      "sourceSlug": "supabase-postgres-best-practices",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/supabase-postgres-best-practices/references/conn-pooling.md",
+      "hash": "88cf086bf98ba865d2e9d0579974e1366b14157619d6a93e7da77be91084e4a5",
+      "sourceSlug": "supabase-postgres-best-practices",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/supabase-postgres-best-practices/references/conn-prepared-statements.md",
+      "hash": "174e9332fe3dda5c99b2b00159fb1915ae36c00bab3a7882c14e73e4344e946e",
+      "sourceSlug": "supabase-postgres-best-practices",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/supabase-postgres-best-practices/references/data-batch-inserts.md",
+      "hash": "531933b82d6a622d0fae29e0ea80be6fe5d78655adf2804c271ea84a1930de37",
+      "sourceSlug": "supabase-postgres-best-practices",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/supabase-postgres-best-practices/references/data-n-plus-one.md",
+      "hash": "21a44905e5b16a42741892ec34bb1bfef124d049b140a76934a9acd0f46f5fc2",
+      "sourceSlug": "supabase-postgres-best-practices",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/supabase-postgres-best-practices/references/data-pagination.md",
+      "hash": "73c9fa10a3d439bedea0e11b640bd25bf30dd50f0d9006cf85baf7c3151543fa",
+      "sourceSlug": "supabase-postgres-best-practices",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/supabase-postgres-best-practices/references/data-upsert.md",
+      "hash": "2612af83b20a2701dde30ef1f8d7efd26b7e9eef84717226b8f038a2d2150ff7",
+      "sourceSlug": "supabase-postgres-best-practices",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/supabase-postgres-best-practices/references/lock-advisory.md",
+      "hash": "c88d259dbf81c3771438f59a165f7eab8acd09999dd370bdf807521c73f35aab",
+      "sourceSlug": "supabase-postgres-best-practices",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/supabase-postgres-best-practices/references/lock-deadlock-prevention.md",
+      "hash": "09aee46f51d7178c8e55fe056cd5a94a64ba2c122fe418e6900cd99f297b2347",
+      "sourceSlug": "supabase-postgres-best-practices",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/supabase-postgres-best-practices/references/lock-short-transactions.md",
+      "hash": "5aa7f61095916986d39644b446cdbcd2bacca7ef698a3bb50b3f82dd60207602",
+      "sourceSlug": "supabase-postgres-best-practices",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/supabase-postgres-best-practices/references/lock-skip-locked.md",
+      "hash": "6c45077f430f29cd9cd8f448c94d578e827e7bd023fcdaf717a756acb116fa4b",
+      "sourceSlug": "supabase-postgres-best-practices",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/supabase-postgres-best-practices/references/monitor-explain-analyze.md",
+      "hash": "4cb67ffbf8e57f2e5b380b0beb4242528b513723ce314a2c2ffcf083bd4203d7",
+      "sourceSlug": "supabase-postgres-best-practices",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/supabase-postgres-best-practices/references/monitor-pg-stat-statements.md",
+      "hash": "89dca99d4e894fcbdcac136be7ad9fbc03d1342904f065c1b198dc9cf495f098",
+      "sourceSlug": "supabase-postgres-best-practices",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/supabase-postgres-best-practices/references/monitor-vacuum-analyze.md",
+      "hash": "2892272011710eb49b3f185ec12f15ce9ce4c365792c672f6e2a9c90da426a1a",
+      "sourceSlug": "supabase-postgres-best-practices",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/supabase-postgres-best-practices/references/query-composite-indexes.md",
+      "hash": "73e42424e671f0266e74fdb220db3196790f69fb43e2b19c7b9483eb4971b554",
+      "sourceSlug": "supabase-postgres-best-practices",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/supabase-postgres-best-practices/references/query-covering-indexes.md",
+      "hash": "daf2a7f0477fb7357b62b5fb5b185b1995a77a186347e45cb780e25e7a7589b6",
+      "sourceSlug": "supabase-postgres-best-practices",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/supabase-postgres-best-practices/references/query-index-types.md",
+      "hash": "472a74f22c2df203bd0154999b3a5a0187cca2ab3d9a3978e305bb7c32f1a282",
+      "sourceSlug": "supabase-postgres-best-practices",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/supabase-postgres-best-practices/references/query-missing-indexes.md",
+      "hash": "91ad8b0ff4365704b4830a7f077c6f140f7140fd5d3ce5cd0b92b160cf9e25f1",
+      "sourceSlug": "supabase-postgres-best-practices",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/supabase-postgres-best-practices/references/query-partial-indexes.md",
+      "hash": "6448982bc8558c6555284958edc331b29239c6a0130e6b4501dd6d4da607a6dd",
+      "sourceSlug": "supabase-postgres-best-practices",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/supabase-postgres-best-practices/references/schema-constraints.md",
+      "hash": "90e8efda3e9e81095e642911ad4aae2809d160f29414338fa997253238f510f8",
+      "sourceSlug": "supabase-postgres-best-practices",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/supabase-postgres-best-practices/references/schema-data-types.md",
+      "hash": "e01b58c14c7f3f65d8ead580b9a4fcf70b83baaab0f9a5f83c569c9fd113e8c8",
+      "sourceSlug": "supabase-postgres-best-practices",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/supabase-postgres-best-practices/references/schema-foreign-key-indexes.md",
+      "hash": "7587713d12a65a212365459b3d39e4717d8a79e4073b10bd62f1054d8192c0dd",
+      "sourceSlug": "supabase-postgres-best-practices",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/supabase-postgres-best-practices/references/schema-lowercase-identifiers.md",
+      "hash": "4bc80f70865f2390872591f326c8a6be6456a0aeb5a7e5a2475d7cd9d43059ab",
+      "sourceSlug": "supabase-postgres-best-practices",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/supabase-postgres-best-practices/references/schema-partitioning.md",
+      "hash": "541e13fbeaf4bb1485c9059d4c9417dbdb766cf16f4237cd63a04ada7ec45b90",
+      "sourceSlug": "supabase-postgres-best-practices",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/supabase-postgres-best-practices/references/schema-primary-keys.md",
+      "hash": "3c8beabef82066f9a0838b926da0885117fd2d9a263aaf84cb5ca9e5f0d400e9",
+      "sourceSlug": "supabase-postgres-best-practices",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/supabase-postgres-best-practices/references/security-privileges.md",
+      "hash": "095909274a4fb43df785d7144cf674eeb40284d2d45628f14af4108737b93663",
+      "sourceSlug": "supabase-postgres-best-practices",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/supabase-postgres-best-practices/references/security-rls-basics.md",
+      "hash": "e04dd1a3a382aafdaaa73fe9f7976352acdde6e90c2a2470d281b94d4f44b096",
+      "sourceSlug": "supabase-postgres-best-practices",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/supabase-postgres-best-practices/references/security-rls-performance.md",
+      "hash": "2e1faeca7d5746e246b1c78f9492fe2a9cfa41c4d7fa1e23c402d58fa18ea014",
+      "sourceSlug": "supabase-postgres-best-practices",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/supabase-server/SKILL.md",
+      "hash": "09fac36b8faf76655b458082950d8220727c8e5f378e1c59f1ff287327c8b814",
+      "sourceSlug": "supabase-server",
+      "kind": "skill",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/performance-optimization/SKILL.md",
+      "hash": "b6efde13d0d3a741ee86415628152abfba9065a0fabee473731705719d953907",
+      "sourceSlug": "performance-optimization",
+      "kind": "skill",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/react-devtools/SKILL.md",
+      "hash": "9f359795c474759e180c59bc074ee7d2d2145a621d8984c2627a6db67a9cc442",
+      "sourceSlug": "react-devtools",
+      "kind": "skill",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/react-devtools/references/commands.md",
+      "hash": "9983f59a7b65841da91fa7449b2216cb41d5c0a43c1071d19f38f703aac78ab9",
+      "sourceSlug": "react-devtools",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/react-devtools/references/profiling-guide.md",
+      "hash": "5a606b637bcc8498df8ee02fa01bd933bdd3fb79a2209f85c12211d6c028aa4d",
+      "sourceSlug": "react-devtools",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/react-devtools/references/setup.md",
+      "hash": "0799230ed2c354069275a00adb27789a2da5012b6e822e49f87b086b439811bd",
+      "sourceSlug": "react-devtools",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/playwright-skill/SKILL.md",
+      "hash": "3fe170f61e68089ac185a032c7166df06f2db5ac978365d1115fc463a1d3cd56",
+      "sourceSlug": "playwright-skill",
+      "kind": "skill",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/playwright-skill/reference/api-mocking-visual.md",
+      "hash": "632ebc05e5f7921f03502c3826a6800edf7a14be2ca5dbda266ca468b2e46c67",
+      "sourceSlug": "playwright-skill",
+      "kind": "asset",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/playwright-skill/reference/cloud-integration.md",
+      "hash": "894ea584e6342044fb6b3b9336cec4bf451e1fa2c2a10c2949046548d99e6b14",
+      "sourceSlug": "playwright-skill",
+      "kind": "asset",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/playwright-skill/reference/csharp-patterns.md",
+      "hash": "ef250a51d9c32ddccc537bb31bdeaefcdfe5296964ee71611fe08ef0a5772db9",
+      "sourceSlug": "playwright-skill",
+      "kind": "asset",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/playwright-skill/reference/debugging-flaky.md",
+      "hash": "4e6c7f2b1ddae8604000195add51157aa89f87fa108f015ea399797d75159c1a",
+      "sourceSlug": "playwright-skill",
+      "kind": "asset",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/playwright-skill/reference/java-patterns.md",
+      "hash": "d74d157acda2a073da0aa23b221a3122558e4ef1532d96bdfcf1b9c20568849f",
+      "sourceSlug": "playwright-skill",
+      "kind": "asset",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/playwright-skill/reference/mobile-testing.md",
+      "hash": "fb2ef9625e5a1069919e7abc34fdbf70630bf1531cdad11476344fd38b8258e7",
+      "sourceSlug": "playwright-skill",
+      "kind": "asset",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/playwright-skill/reference/page-object-model.md",
+      "hash": "23e685b8c666ea797676d17792d484ba41f261172109771c04c2445482174660",
+      "sourceSlug": "playwright-skill",
+      "kind": "asset",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/playwright-skill/reference/playbook.md",
+      "hash": "80c3e33041a11fc4ff133eb32defda4e2dd3433d00704d5e892a4a3e0c55d351",
+      "sourceSlug": "playwright-skill",
+      "kind": "asset",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/playwright-skill/reference/python-patterns.md",
+      "hash": "f9bf44322090f6c041a8b01dc5f1933d6e858dbf5c7c04654136a354cc9a43b0",
+      "sourceSlug": "playwright-skill",
+      "kind": "asset",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/playwright-skill/scripts/scaffold-project.sh",
+      "hash": "86490db8b307965ac9262166715f360dff3de890805bc435feaea15d2ab2ab0e",
+      "sourceSlug": "playwright-skill",
+      "kind": "asset",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/playwright-skill/scripts/validate-config.py",
+      "hash": "9822bbe70123cbc1031cec8ae995febf93146e821bea156b56fe916cdd087446",
+      "sourceSlug": "playwright-skill",
+      "kind": "asset",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/playwright-skill/templates/lambdatest-setup.ts",
+      "hash": "0d9d8b0ac5c8cf82d6791cb55d13b858d83027c064fddd9c83b33804b22300fc",
+      "sourceSlug": "playwright-skill",
+      "kind": "asset",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/playwright-skill/templates/playwright.config.ts",
+      "hash": "9742d01bf1e4d59bed03a78ff583c99868142943aba82f1734e105e91ff993bc",
+      "sourceSlug": "playwright-skill",
+      "kind": "asset",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/devops-engineer/SKILL.md",
+      "hash": "eff40595441cd3d77629b0d6b00449ecbc8f664d85e6da07d836e455638f1786",
+      "sourceSlug": "devops-engineer",
+      "kind": "skill",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/devops-engineer/references/deployment-strategies.md",
+      "hash": "d09fd909526bac88579c993b85294c210ca76959e38a0018f4d4181f48e2302b",
+      "sourceSlug": "devops-engineer",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/devops-engineer/references/docker-patterns.md",
+      "hash": "b6ccc98c44aa64e9c9aa837c793369914516ae874961de7eec38191c8cf61861",
+      "sourceSlug": "devops-engineer",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/devops-engineer/references/github-actions.md",
+      "hash": "04d2d1c339762948dd513c268482d3ffada30068bbea92f282bf753837cb5e4b",
+      "sourceSlug": "devops-engineer",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/devops-engineer/references/gitlab-ci.md",
+      "hash": "8b4e6492a96ff5b94c07dcddca3a093121845a13bc4f2699844c06f42f3043e2",
+      "sourceSlug": "devops-engineer",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/devops-engineer/references/incident-response.md",
+      "hash": "8410ae3e9c7295f4fda94d7fa85438292e675a4e10dc64a61aead4df162522a4",
+      "sourceSlug": "devops-engineer",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/devops-engineer/references/kubernetes.md",
+      "hash": "7da17b4e40c05d8c5c694ae532524072b1eed9d078f336c57970d6fc5473ce0b",
+      "sourceSlug": "devops-engineer",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/devops-engineer/references/platform-engineering.md",
+      "hash": "1256d7f015cb45c8e35ad708cf9a51ef429c95945d07705fb416bc89e3bc1bfd",
+      "sourceSlug": "devops-engineer",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/devops-engineer/references/release-automation.md",
+      "hash": "bf546d38622d8f9185939d5d3bafea8859f44a7c60e85957afc39347052abc45",
+      "sourceSlug": "devops-engineer",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/devops-engineer/references/terraform-iac.md",
+      "hash": "0d629d4b9826cbd97c1d5a6e826d701bacd3f057d4092cda0e5bb9da692e922b",
+      "sourceSlug": "devops-engineer",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/sentry-security-review/LICENSE",
+      "hash": "0fc858d87f467971ee612fc183896257a1c160a1610a443896b33ae4d2a44ef7",
+      "sourceSlug": "sentry-security-review",
+      "kind": "asset",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/sentry-security-review/SKILL.md",
+      "hash": "5a206760028fe5382cc0f9341f42ea484866699194b1e0775b03e0b507560818",
+      "sourceSlug": "sentry-security-review",
+      "kind": "skill",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/sentry-security-review/infrastructure/docker.md",
+      "hash": "84bd49469c5a0cbd42fecdcce752de98cf6821b601dfef6a1920df61f030ae62",
+      "sourceSlug": "sentry-security-review",
+      "kind": "asset",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/sentry-security-review/languages/javascript.md",
+      "hash": "f4226c82de13da9dec9be7b509932d74a4ade2c8d46b98a078a5b38bf8aa3319",
+      "sourceSlug": "sentry-security-review",
+      "kind": "asset",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/sentry-security-review/languages/python.md",
+      "hash": "32d0b1304d132fc582320d584d54bbaea566d51700cd16b3f0be723ed834a556",
+      "sourceSlug": "sentry-security-review",
+      "kind": "asset",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/sentry-security-review/references/api-security.md",
+      "hash": "65b2456b4c5ae0d6d9849eac8196ac03fbefbf88657c5e069a8aa5063dd6afbf",
+      "sourceSlug": "sentry-security-review",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/sentry-security-review/references/authentication.md",
+      "hash": "7bc598cd4af33bb62406f5a0e8ff7adebff83c04e5fb449e6738f96ae0e26be6",
+      "sourceSlug": "sentry-security-review",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/sentry-security-review/references/authorization.md",
+      "hash": "5ccfd579a1eca4d9d374eb00b04ba33cc9a2918e14e5cb7620c136a6feaeffff",
+      "sourceSlug": "sentry-security-review",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/sentry-security-review/references/business-logic.md",
+      "hash": "fc8ec30eb19f73759e8901e58d7ca66fc87035703325cc8a844298102fa6298a",
+      "sourceSlug": "sentry-security-review",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/sentry-security-review/references/cryptography.md",
+      "hash": "1e1301624e0c9b1699e1d95af11df06a67d104ff06443e93711bb656152f364c",
+      "sourceSlug": "sentry-security-review",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/sentry-security-review/references/csrf.md",
+      "hash": "7b57ba0a45a291eee24578af8b0c69515c76e452c33d8c2d717c66ee3bbdda20",
+      "sourceSlug": "sentry-security-review",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/sentry-security-review/references/data-protection.md",
+      "hash": "920b7dfb86dc696002d31022c1f7665ef602dd1ed76f1124ad937d488ce2b381",
+      "sourceSlug": "sentry-security-review",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/sentry-security-review/references/deserialization.md",
+      "hash": "be9946daf389ad594fbc4065246ff334c389da1e2cf593180ca150b0204287fb",
+      "sourceSlug": "sentry-security-review",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/sentry-security-review/references/error-handling.md",
+      "hash": "e12d3c9f713614223ce797935f3a4c2ac1a7f1fcf0ea24e865a1a70efeab4fb9",
+      "sourceSlug": "sentry-security-review",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/sentry-security-review/references/file-security.md",
+      "hash": "a0a001fb79fe9f1169fa3ba523225164744c42d8779341f15d3d0fc349185f2a",
+      "sourceSlug": "sentry-security-review",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/sentry-security-review/references/injection.md",
+      "hash": "d3989e97af773f521170b430a0e629b26c6ff2051cd826fa62a895523f268178",
+      "sourceSlug": "sentry-security-review",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/sentry-security-review/references/logging.md",
+      "hash": "acca4eeebfc451bb62a7c085d1121ffa443e8cd0831548c2ae6f7fc606056cbc",
+      "sourceSlug": "sentry-security-review",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/sentry-security-review/references/misconfiguration.md",
+      "hash": "919c44e309eaa6427a8bb44a2ed645fbf2b46d9dfe86a0fcdb2d084201898390",
+      "sourceSlug": "sentry-security-review",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/sentry-security-review/references/modern-threats.md",
+      "hash": "d2ac69d91ade6df9c4bf89b2be0d203651d1a0cc5a67d03db8013af52c8ffe6b",
+      "sourceSlug": "sentry-security-review",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/sentry-security-review/references/ssrf.md",
+      "hash": "646a8244fa61997b9b4f093169be1af4f94e6a3d04dcae8d426bb821870b2bff",
+      "sourceSlug": "sentry-security-review",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/sentry-security-review/references/supply-chain.md",
+      "hash": "ef3000d91763ccdddfbce2660943c4090b4c16b3b33afe980f4e10947729e1f1",
+      "sourceSlug": "sentry-security-review",
+      "kind": "reference",
+      "tier": "library"
+    },
+    {
+      "path": ".claude/skills/sentry-security-review/references/xss.md",
+      "hash": "4735df1e581b757b078605fbc27d37e85cfe182c45ab326c9e536c71a930680c",
+      "sourceSlug": "sentry-security-review",
+      "kind": "reference",
+      "tier": "library"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "voices": {
+    "sunny": {
+      "voiceId": "vGQNBgLaiM3EdZtxIiuY",
+      "hash": "4f4fc7a560880b5a"
+    },
+    "cowboy": {
+      "voiceId": "yqZhXcy5spYR7Hhv17QY",
+      "hash": "e176c57b0613cc6c"
+    },
+    "sassy": {
+      "voiceId": "qqKpdUwkD3h8VyDLKQyz",
+      "hash": "e97484737d2e65a6"
+    },
+    "hero": {
+      "voiceId": "QEj0heL4nQHjaGrihlr0",
+      "hash": "73231370bed80905"
+    }
+  },
+  "files": {
+    "sfx/throw.mp3": "1c8f93a478a2a978",
+    "sfx/hit.mp3": "0f8c205f3de87eaf",
+    "sfx/freeze.mp3": "a794e4886c70523a",
+    "sfx/correct.mp3": "0ed6389e9e7f4b38",
+    "sfx/wrong.mp3": "862d53adb9dddd35",
+    "music/park.mp3": "466b931cad3a405a",
+    "sfx/knockout.mp3": "29b6d7e05268f821",
+    "sfx/respawn.mp3": "f6d913d776150855",
+    "voices/sunny/throw-1.mp3": "5be39d9e39d8867b",
+    "voices/sunny/hit-1.mp3": "a50af167d2cae768",
+    "voices/sunny/hit-2.mp3": "05bfa88da869ca26",
+    "voices/sunny/ouch-1.mp3": "62719ba8ad520f4a",
+    "voices/sunny/ouch-2.mp3": "6d904ede572a2dd4",
+    "voices/sunny/windup-1.mp3": "5aa97c784e83f6f9",
+    "voices/sunny/respawn-1.mp3": "810dd549b7fc61db",
+    "voices/cowboy/throw-1.mp3": "df38cab554df6dfe",
+    "voices/cowboy/hit-1.mp3": "2e9414214b35d033",
+    "voices/cowboy/hit-2.mp3": "c8aefe935ce689b9",
+    "voices/cowboy/ouch-1.mp3": "d3bfe5dbd2ed2e4f",
+    "voices/cowboy/ouch-2.mp3": "012edc6dd3f4e213",
+    "voices/cowboy/windup-1.mp3": "f0b4fa357a63341a",
+    "voices/cowboy/respawn-1.mp3": "b30b46b17269ae75",
+    "voices/sassy/throw-1.mp3": "2d720dcc4cb5a5d8",
+    "voices/sassy/hit-1.mp3": "8263b776f018e121",
+    "voices/sassy/hit-2.mp3": "558c3f2457b88f7d",
+    "voices/sassy/ouch-1.mp3": "3f01bf69b1dde944",
+    "voices/sassy/ouch-2.mp3": "bd2c0fa415d115a8",
+    "voices/sassy/windup-1.mp3": "3767e996f4eedf84",
+    "voices/sassy/respawn-1.mp3": "51aa0921ffd1b070",
+    "voices/hero/throw-1.mp3": "6aa6b9c2a171b9de",
+    "voices/hero/hit-1.mp3": "736dafed86b90326",
+    "voices/hero/hit-2.mp3": "e81cfe767e6c3db3",
+    "voices/hero/ouch-1.mp3": "a4dcdb6fb4f13d1c",
+    "voices/hero/ouch-2.mp3": "b2e2ae3b465aedaa",
+    "voices/hero/windup-1.mp3": "8c1fddd7313f635a",
+    "voices/hero/respawn-1.mp3": "165db569b8f9059c",
+    "music/classic.mp3": "d98eed6bb19eb3a4",
+    "music/schoolyard.mp3": "93c73b718c7be637",
+    "music/beach.mp3": "b7c5eff9e8387af2",
+    "music/snow.mp3": "36e9e680b2a235f5",
+    "music/library.mp3": "95270f00607f1ebc",
+    "music/space.mp3": "dfcc626f5b38bc5a"
+  }
+}

@@ -1,0 +1,28 @@
+# Single origin: / → web, /ws and /api → server. TLS certificates are automatic.
+{$VOLLEYLAND_DOMAIN} {
+	encode zstd gzip
+
+	# Socket.IO game gateway. Caddy forwards the WebSocket Upgrade/Connection headers itself and
+	# applies no idle timeout to upgraded connections; Socket.IO pings every 25 s keep NATs open.
+	@realtime path /ws /ws/*
+	handle @realtime {
+		reverse_proxy server:3001 {
+			# Explicit: no read/write deadline on long-lived game sockets.
+			transport http {
+				read_timeout 0
+				write_timeout 0
+			}
+			# Keep live matches connected across config reloads instead of cutting them instantly.
+			stream_close_delay 5m
+			flush_interval -1
+		}
+	}
+
+	handle /api/* {
+		reverse_proxy server:3001
+	}
+
+	handle {
+		reverse_proxy web:3000
+	}
+}

@@ -1,0 +1,1902 @@
+{
+  "format": 1,
+  "description": "Original multiple-choice questions for CBSE Class 10 (India) in Mathematics, Science and Social Science, written to the chapters of the current rationalised NCERT textbooks.",
+  "countries": [
+    {
+      "id": "in",
+      "name": "India"
+    }
+  ],
+  "curricula": [
+    {
+      "id": "in-cbse",
+      "countryId": "in",
+      "name": "CBSE",
+      "description": "Central Board of Secondary Education: a national school board in India whose affiliated schools teach from NCERT textbooks and follow the CBSE curriculum."
+    }
+  ],
+  "levels": [
+    {
+      "id": "in-cbse-class-10",
+      "curriculumId": "in-cbse",
+      "name": "Class 10",
+      "order": 10,
+      "ages": [
+        15,
+        16
+      ],
+      "description": "The final year of secondary school, ending in the CBSE Class X board examination. Topics follow the rationalised NCERT textbooks prescribed by the CBSE secondary curriculum for 2025–26."
+    }
+  ],
+  "topics": [
+    {
+      "id": "in-cbse-10-math-real-numbers",
+      "levelId": "in-cbse-class-10",
+      "subjectId": "mathematics",
+      "name": "Real Numbers",
+      "description": "The Fundamental Theorem of Arithmetic, HCF and LCM by prime factorisation, and proofs that numbers such as √2 are irrational."
+    },
+    {
+      "id": "in-cbse-10-math-polynomials",
+      "levelId": "in-cbse-class-10",
+      "subjectId": "mathematics",
+      "name": "Polynomials",
+      "description": "Zeroes of a polynomial, their graphical meaning, and the relationship between the zeroes and coefficients of a quadratic polynomial."
+    },
+    {
+      "id": "in-cbse-10-math-pair-of-linear-equations",
+      "levelId": "in-cbse-class-10",
+      "subjectId": "mathematics",
+      "name": "Pair of Linear Equations in Two Variables",
+      "description": "Graphical solution, consistency and number of solutions, and solving by substitution and elimination."
+    },
+    {
+      "id": "in-cbse-10-math-quadratic-equations",
+      "levelId": "in-cbse-class-10",
+      "subjectId": "mathematics",
+      "name": "Quadratic Equations",
+      "description": "Standard form, solving by factorisation and the quadratic formula, and the discriminant and nature of roots."
+    },
+    {
+      "id": "in-cbse-10-math-arithmetic-progressions",
+      "levelId": "in-cbse-class-10",
+      "subjectId": "mathematics",
+      "name": "Arithmetic Progressions",
+      "description": "The nth term of an AP and the sum of its first n terms, applied to everyday problems."
+    },
+    {
+      "id": "in-cbse-10-math-triangles",
+      "levelId": "in-cbse-class-10",
+      "subjectId": "mathematics",
+      "name": "Triangles",
+      "description": "Similar triangles, the Basic Proportionality Theorem and its converse, and the AAA, SSS and SAS similarity criteria."
+    },
+    {
+      "id": "in-cbse-10-math-coordinate-geometry",
+      "levelId": "in-cbse-class-10",
+      "subjectId": "mathematics",
+      "name": "Coordinate Geometry",
+      "description": "The distance formula and the section formula for internal division."
+    },
+    {
+      "id": "in-cbse-10-math-introduction-to-trigonometry",
+      "levelId": "in-cbse-class-10",
+      "subjectId": "mathematics",
+      "name": "Introduction to Trigonometry",
+      "description": "Trigonometric ratios of acute angles, values at 0°, 30°, 45°, 60° and 90°, and simple identities from sin²A + cos²A = 1."
+    },
+    {
+      "id": "in-cbse-10-math-applications-of-trigonometry",
+      "levelId": "in-cbse-class-10",
+      "subjectId": "mathematics",
+      "name": "Some Applications of Trigonometry",
+      "description": "Heights and distances using angles of elevation and depression of 30°, 45° and 60°."
+    },
+    {
+      "id": "in-cbse-10-math-circles",
+      "levelId": "in-cbse-class-10",
+      "subjectId": "mathematics",
+      "name": "Circles",
+      "description": "Tangents to a circle: the tangent is perpendicular to the radius, and tangents from an external point are equal."
+    },
+    {
+      "id": "in-cbse-10-math-areas-related-to-circles",
+      "levelId": "in-cbse-class-10",
+      "subjectId": "mathematics",
+      "name": "Areas Related to Circles",
+      "description": "Areas of sectors and segments of a circle and lengths of arcs."
+    },
+    {
+      "id": "in-cbse-10-math-surface-areas-and-volumes",
+      "levelId": "in-cbse-class-10",
+      "subjectId": "mathematics",
+      "name": "Surface Areas and Volumes",
+      "description": "Surface areas and volumes of solids made by combining two of cubes, cuboids, cylinders, cones, spheres and hemispheres."
+    },
+    {
+      "id": "in-cbse-10-math-statistics",
+      "levelId": "in-cbse-class-10",
+      "subjectId": "mathematics",
+      "name": "Statistics",
+      "description": "Mean, median and mode of grouped data."
+    },
+    {
+      "id": "in-cbse-10-math-probability",
+      "levelId": "in-cbse-class-10",
+      "subjectId": "mathematics",
+      "name": "Probability",
+      "description": "Classical (theoretical) probability of simple events."
+    },
+    {
+      "id": "in-cbse-10-sci-chemical-reactions-and-equations",
+      "levelId": "in-cbse-class-10",
+      "subjectId": "science",
+      "name": "Chemical Reactions and Equations",
+      "description": "Balanced equations; combination, decomposition, displacement and double displacement reactions; oxidation and reduction."
+    },
+    {
+      "id": "in-cbse-10-sci-acids-bases-and-salts",
+      "levelId": "in-cbse-class-10",
+      "subjectId": "science",
+      "name": "Acids, Bases and Salts",
+      "description": "Indicators, reactions of acids and bases, the pH scale and its importance, and common salts such as baking soda and bleaching powder."
+    },
+    {
+      "id": "in-cbse-10-sci-metals-and-non-metals",
+      "levelId": "in-cbse-class-10",
+      "subjectId": "science",
+      "name": "Metals and Non-metals",
+      "description": "Properties of metals and non-metals, the reactivity series, ionic compounds, basic metallurgy and corrosion."
+    },
+    {
+      "id": "in-cbse-10-sci-carbon-and-its-compounds",
+      "levelId": "in-cbse-class-10",
+      "subjectId": "science",
+      "name": "Carbon and its Compounds",
+      "description": "Covalent bonding, hydrocarbons, homologous series, functional groups, ethanol, ethanoic acid, and soaps and detergents."
+    },
+    {
+      "id": "in-cbse-10-sci-life-processes",
+      "levelId": "in-cbse-class-10",
+      "subjectId": "science",
+      "name": "Life Processes",
+      "description": "Nutrition, respiration, transportation and excretion in plants and animals."
+    },
+    {
+      "id": "in-cbse-10-sci-control-and-coordination",
+      "levelId": "in-cbse-class-10",
+      "subjectId": "science",
+      "name": "Control and Coordination",
+      "description": "The nervous system and reflex actions, plant movements and hormones, and the animal endocrine system."
+    },
+    {
+      "id": "in-cbse-10-sci-how-do-organisms-reproduce",
+      "levelId": "in-cbse-class-10",
+      "subjectId": "science",
+      "name": "How do Organisms Reproduce?",
+      "description": "Asexual and sexual reproduction in plants and animals, and reproductive health."
+    },
+    {
+      "id": "in-cbse-10-sci-heredity",
+      "levelId": "in-cbse-class-10",
+      "subjectId": "science",
+      "name": "Heredity",
+      "description": "Variation, Mendel's experiments and the rules of inheritance, and sex determination."
+    },
+    {
+      "id": "in-cbse-10-sci-light-reflection-and-refraction",
+      "levelId": "in-cbse-class-10",
+      "subjectId": "science",
+      "name": "Light – Reflection and Refraction",
+      "description": "Spherical mirrors and lenses, image formation, the mirror and lens formulae, refractive index and power of a lens."
+    },
+    {
+      "id": "in-cbse-10-sci-human-eye-and-colourful-world",
+      "levelId": "in-cbse-class-10",
+      "subjectId": "science",
+      "name": "The Human Eye and the Colourful World",
+      "description": "The eye, defects of vision and their correction, dispersion through a prism and scattering of light."
+    },
+    {
+      "id": "in-cbse-10-sci-electricity",
+      "levelId": "in-cbse-class-10",
+      "subjectId": "science",
+      "name": "Electricity",
+      "description": "Current, potential difference, Ohm's law, resistance and resistivity, series and parallel resistors, heating effect and electric power."
+    },
+    {
+      "id": "in-cbse-10-sci-magnetic-effects-of-electric-current",
+      "levelId": "in-cbse-class-10",
+      "subjectId": "science",
+      "name": "Magnetic Effects of Electric Current",
+      "description": "Magnetic field lines, fields of wires, coils and solenoids, force on a current-carrying conductor, and domestic circuits."
+    },
+    {
+      "id": "in-cbse-10-sci-our-environment",
+      "levelId": "in-cbse-class-10",
+      "subjectId": "science",
+      "name": "Our Environment",
+      "description": "Ecosystems, food chains and the flow of energy, ozone depletion, and biodegradable and non-biodegradable waste."
+    },
+    {
+      "id": "in-cbse-10-sst-rise-of-nationalism-in-europe",
+      "levelId": "in-cbse-class-10",
+      "subjectId": "social-science",
+      "name": "The Rise of Nationalism in Europe",
+      "description": "History: the French Revolution and the idea of the nation, liberal nationalism, the revolutions of 1848, and the making of Germany and Italy."
+    },
+    {
+      "id": "in-cbse-10-sst-nationalism-in-india",
+      "levelId": "in-cbse-class-10",
+      "subjectId": "social-science",
+      "name": "Nationalism in India",
+      "description": "History: the First World War, Khilafat and Non-Cooperation, Civil Disobedience, and the sense of collective belonging."
+    },
+    {
+      "id": "in-cbse-10-sst-resources-and-development",
+      "levelId": "in-cbse-class-10",
+      "subjectId": "social-science",
+      "name": "Resources and Development",
+      "description": "Geography: types of resources, resource planning, land use, and the soils of India and their conservation."
+    },
+    {
+      "id": "in-cbse-10-sst-water-resources",
+      "levelId": "in-cbse-class-10",
+      "subjectId": "social-science",
+      "name": "Water Resources",
+      "description": "Geography: water scarcity, multipurpose river projects, and rainwater harvesting."
+    },
+    {
+      "id": "in-cbse-10-sst-agriculture",
+      "levelId": "in-cbse-class-10",
+      "subjectId": "social-science",
+      "name": "Agriculture",
+      "description": "Geography: types of farming, cropping seasons, major crops and where they grow."
+    },
+    {
+      "id": "in-cbse-10-sst-power-sharing",
+      "levelId": "in-cbse-class-10",
+      "subjectId": "social-science",
+      "name": "Power Sharing",
+      "description": "Political Science: the cases of Belgium and Sri Lanka, why power sharing is desirable, and its forms."
+    },
+    {
+      "id": "in-cbse-10-sst-federalism",
+      "levelId": "in-cbse-class-10",
+      "subjectId": "social-science",
+      "name": "Federalism",
+      "description": "Political Science: features of federalism, the Union, State and Concurrent Lists, and decentralisation in India."
+    },
+    {
+      "id": "in-cbse-10-sst-political-parties",
+      "levelId": "in-cbse-class-10",
+      "subjectId": "social-science",
+      "name": "Political Parties",
+      "description": "Political Science: what parties do, party systems, national and state parties, and challenges to parties."
+    },
+    {
+      "id": "in-cbse-10-sst-development",
+      "levelId": "in-cbse-class-10",
+      "subjectId": "social-science",
+      "name": "Development",
+      "description": "Economics: development goals, comparing countries by income, per capita income, and human development indicators."
+    },
+    {
+      "id": "in-cbse-10-sst-sectors-of-the-indian-economy",
+      "levelId": "in-cbse-class-10",
+      "subjectId": "social-science",
+      "name": "Sectors of the Indian Economy",
+      "description": "Economics: primary, secondary and tertiary sectors, organised and unorganised sectors, public and private sectors, and employment."
+    },
+    {
+      "id": "in-cbse-10-sst-money-and-credit",
+      "levelId": "in-cbse-class-10",
+      "subjectId": "social-science",
+      "name": "Money and Credit",
+      "description": "Economics: money as a medium of exchange, banks, terms of credit, formal and informal credit, and self-help groups."
+    }
+  ],
+  "sources": [
+    {
+      "id": "ncert-mathematics-class-10",
+      "title": "Mathematics: Textbook for Class X",
+      "publisher": "NCERT",
+      "url": "https://ncert.nic.in/textbook.php?jemh1=0-14",
+      "year": 2022,
+      "licence": "© NCERT. Questions in this bank are original, written to this textbook's chapters; none are copied.",
+      "notes": "Rationalised revised edition (October 2022); the copy checked is marked Reprint 2026-27. URL is NCERT's official textbook page for this book (14 chapters), confirmed on ncert.nic.in."
+    },
+    {
+      "id": "ncert-science-class-10",
+      "title": "Science: Textbook for Class X",
+      "publisher": "NCERT",
+      "url": "https://ncert.nic.in/textbook.php?jesc1=0-13",
+      "year": 2022,
+      "licence": "© NCERT. Questions in this bank are original, written to this textbook's chapters; none are copied.",
+      "notes": "Rationalised revised edition (October 2022); the copy checked is marked Reprint 2026-27. 13 chapters (Heredity replaces Heredity and Evolution). URL is NCERT's official textbook page for this book, confirmed on ncert.nic.in."
+    },
+    {
+      "id": "ncert-history-class-10",
+      "title": "India and the Contemporary World – II: Textbook in History for Class X",
+      "publisher": "NCERT",
+      "url": "https://ncert.nic.in/textbook.php?jess3=0-5",
+      "year": 2022,
+      "licence": "© NCERT. Questions in this bank are original, written to this textbook's chapters; none are copied.",
+      "notes": "Rationalised content, reprinted from October 2022; the copy checked is marked Reprint 2026-27. Five chapters. URL is NCERT's official textbook page for this book, confirmed on ncert.nic.in."
+    },
+    {
+      "id": "ncert-geography-class-10",
+      "title": "Contemporary India – II: Textbook in Geography for Class X",
+      "publisher": "NCERT",
+      "url": "https://ncert.nic.in/textbook.php?jess1=0-7",
+      "year": 2022,
+      "licence": "© NCERT. Questions in this bank are original, written to this textbook's chapters; none are copied.",
+      "notes": "Rationalised revised edition (November 2022); the copy checked is marked Reprint 2026-27. Seven chapters. URL is NCERT's official textbook page for this book, confirmed on ncert.nic.in."
+    },
+    {
+      "id": "ncert-political-science-class-10",
+      "title": "Democratic Politics – II: Textbook in Political Science for Class X",
+      "publisher": "NCERT",
+      "url": "https://ncert.nic.in/textbook.php?jess4=0-5",
+      "year": 2022,
+      "licence": "© NCERT. Questions in this bank are original, written to this textbook's chapters; none are copied.",
+      "notes": "Rationalised revised edition (May 2022); the copy checked is marked Reprint 2026-27. Five chapters. URL is NCERT's official textbook page for this book, confirmed on ncert.nic.in."
+    },
+    {
+      "id": "ncert-economics-class-10",
+      "title": "Understanding Economic Development: Textbook in Economics for Class X",
+      "publisher": "NCERT",
+      "url": "https://ncert.nic.in/textbook.php?jess2=0-5",
+      "year": 2022,
+      "licence": "© NCERT. Questions in this bank are original, written to this textbook's chapters; none are copied.",
+      "notes": "Rationalised content, reprinted from October 2022; the copy checked is marked Reprint 2026-27. Five chapters (Consumer Rights is project work only under CBSE). URL is NCERT's official textbook page for this book, confirmed on ncert.nic.in."
+    },
+    {
+      "id": "cbse-curriculum-secondary-2025-26",
+      "title": "CBSE Curriculum for Secondary Classes IX–X, 2025–26",
+      "publisher": "CBSE",
+      "url": "https://cbseacademic.nic.in/curriculum_2026.html",
+      "year": 2025,
+      "licence": "© CBSE. Used only to choose which chapters are in the current syllabus; no questions are taken from it.",
+      "notes": "Official CBSE Academic curriculum page for 2025–26, confirmed on cbseacademic.nic.in; it links the Class IX–X Mathematics, Science and Social Science syllabus PDFs that set the chapters used here. No question cites this source directly."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q-in-cbse-10-math-001",
+      "topicId": "in-cbse-10-math-real-numbers",
+      "difficulty": 3,
+      "status": "published",
+      "prompt": "The HCF of two numbers is 6 and their LCM is 180. If one of the numbers is 30, what is the other?",
+      "options": [
+        {
+          "id": "a",
+          "text": "150"
+        },
+        {
+          "id": "b",
+          "text": "36"
+        },
+        {
+          "id": "c",
+          "text": "1080"
+        },
+        {
+          "id": "d",
+          "text": "6"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "HCF × LCM = product of the two numbers, so the other number = (6 × 180) ÷ 30 = 1080 ÷ 30 = 36. Check: HCF(30, 36) = 6 and LCM(30, 36) = 180.",
+      "source": {
+        "sourceId": "ncert-mathematics-class-10",
+        "use": "aligned",
+        "reference": "Chapter 1, Real Numbers"
+      }
+    },
+    {
+      "id": "q-in-cbse-10-math-002",
+      "topicId": "in-cbse-10-math-real-numbers",
+      "difficulty": 1,
+      "status": "published",
+      "prompt": "Which of these numbers is irrational?",
+      "options": [
+        {
+          "id": "a",
+          "text": "√49"
+        },
+        {
+          "id": "b",
+          "text": "22/7"
+        },
+        {
+          "id": "c",
+          "text": "0.333… (3 recurring)"
+        },
+        {
+          "id": "d",
+          "text": "3 + √5"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "√5 is irrational, and a rational number plus an irrational number is irrational. √49 = 7, 22/7 is a fraction and 0.333… = 1/3, so those three are rational.",
+      "source": {
+        "sourceId": "ncert-mathematics-class-10",
+        "use": "aligned",
+        "reference": "Chapter 1, Real Numbers"
+      }
+    },
+    {
+      "id": "q-in-cbse-10-math-003",
+      "topicId": "in-cbse-10-math-polynomials",
+      "difficulty": 2,
+      "status": "published",
+      "prompt": "What is the sum of the zeroes of the polynomial 2x² − 8x + 5?",
+      "options": [
+        {
+          "id": "a",
+          "text": "4"
+        },
+        {
+          "id": "b",
+          "text": "−4"
+        },
+        {
+          "id": "c",
+          "text": "5/2"
+        },
+        {
+          "id": "d",
+          "text": "8"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "For ax² + bx + c, the sum of the zeroes is −b/a = −(−8)/2 = 4. (5/2 is c/a, which is the product of the zeroes.)",
+      "source": {
+        "sourceId": "ncert-mathematics-class-10",
+        "use": "aligned",
+        "reference": "Chapter 2, Polynomials"
+      }
+    },
+    {
+      "id": "q-in-cbse-10-math-004",
+      "topicId": "in-cbse-10-math-pair-of-linear-equations",
+      "difficulty": 3,
+      "status": "published",
+      "prompt": "How many solutions does the pair of equations 2x + 3y = 5 and 4x + 6y = 7 have?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Exactly one"
+        },
+        {
+          "id": "b",
+          "text": "Exactly two"
+        },
+        {
+          "id": "c",
+          "text": "None"
+        },
+        {
+          "id": "d",
+          "text": "Infinitely many"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "a₁/a₂ = 2/4 = 1/2 and b₁/b₂ = 3/6 = 1/2, but c₁/c₂ = 5/7. Equal x and y ratios with a different constant ratio means the lines are parallel, so there is no solution.",
+      "source": {
+        "sourceId": "ncert-mathematics-class-10",
+        "use": "aligned",
+        "reference": "Chapter 3, Pair of Linear Equations in Two Variables"
+      }
+    },
+    {
+      "id": "q-in-cbse-10-math-005",
+      "topicId": "in-cbse-10-math-quadratic-equations",
+      "difficulty": 2,
+      "status": "published",
+      "prompt": "What is the nature of the roots of x² − 6x + 9 = 0?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Two distinct real roots"
+        },
+        {
+          "id": "b",
+          "text": "Two equal real roots"
+        },
+        {
+          "id": "c",
+          "text": "No real roots"
+        },
+        {
+          "id": "d",
+          "text": "One positive root and one negative root"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The discriminant b² − 4ac = 36 − 36 = 0, so the roots are real and equal (both are 3).",
+      "source": {
+        "sourceId": "ncert-mathematics-class-10",
+        "use": "aligned",
+        "reference": "Chapter 4, Quadratic Equations"
+      }
+    },
+    {
+      "id": "q-in-cbse-10-math-006",
+      "topicId": "in-cbse-10-math-quadratic-equations",
+      "difficulty": 4,
+      "status": "published",
+      "prompt": "For what positive value of k does x² + kx + 16 = 0 have two equal roots?",
+      "options": [
+        {
+          "id": "a",
+          "text": "4"
+        },
+        {
+          "id": "b",
+          "text": "16"
+        },
+        {
+          "id": "c",
+          "text": "8"
+        },
+        {
+          "id": "d",
+          "text": "64"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Equal roots need b² − 4ac = 0: k² − 4 × 1 × 16 = 0, so k² = 64 and k = 8 (taking the positive value).",
+      "source": {
+        "sourceId": "ncert-mathematics-class-10",
+        "use": "aligned",
+        "reference": "Chapter 4, Quadratic Equations"
+      }
+    },
+    {
+      "id": "q-in-cbse-10-math-007",
+      "topicId": "in-cbse-10-math-arithmetic-progressions",
+      "difficulty": 1,
+      "status": "published",
+      "prompt": "What is the 10th term of the AP 3, 7, 11, 15, …?",
+      "options": [
+        {
+          "id": "a",
+          "text": "43"
+        },
+        {
+          "id": "b",
+          "text": "40"
+        },
+        {
+          "id": "c",
+          "text": "35"
+        },
+        {
+          "id": "d",
+          "text": "39"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Here a = 3 and d = 4, so aₙ = a + (n − 1)d gives a₁₀ = 3 + 9 × 4 = 39. (43 comes from using n instead of n − 1.)",
+      "source": {
+        "sourceId": "ncert-mathematics-class-10",
+        "use": "aligned",
+        "reference": "Chapter 5, Arithmetic Progressions"
+      }
+    },
+    {
+      "id": "q-in-cbse-10-math-008",
+      "topicId": "in-cbse-10-math-arithmetic-progressions",
+      "difficulty": 5,
+      "status": "published",
+      "prompt": "The sum of the first n terms of an AP is n² + 2n. What is its 10th term?",
+      "options": [
+        {
+          "id": "a",
+          "text": "21"
+        },
+        {
+          "id": "b",
+          "text": "120"
+        },
+        {
+          "id": "c",
+          "text": "19"
+        },
+        {
+          "id": "d",
+          "text": "23"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "a₁₀ = S₁₀ − S₉ = (100 + 20) − (81 + 18) = 120 − 99 = 21. (120 is the sum of the first 10 terms, not the 10th term.)",
+      "source": {
+        "sourceId": "ncert-mathematics-class-10",
+        "use": "aligned",
+        "reference": "Chapter 5, Arithmetic Progressions"
+      }
+    },
+    {
+      "id": "q-in-cbse-10-math-009",
+      "topicId": "in-cbse-10-math-triangles",
+      "difficulty": 3,
+      "status": "published",
+      "prompt": "In triangle ABC, DE ∥ BC with D on AB and E on AC. If AD = 2 cm, DB = 3 cm and AE = 4 cm, what is EC?",
+      "options": [
+        {
+          "id": "a",
+          "text": "8/3 cm"
+        },
+        {
+          "id": "b",
+          "text": "6 cm"
+        },
+        {
+          "id": "c",
+          "text": "5 cm"
+        },
+        {
+          "id": "d",
+          "text": "10 cm"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "By the Basic Proportionality Theorem, AD/DB = AE/EC, so 2/3 = 4/EC and EC = 6 cm. (10 cm is the whole of AC.)",
+      "source": {
+        "sourceId": "ncert-mathematics-class-10",
+        "use": "aligned",
+        "reference": "Chapter 6, Triangles"
+      }
+    },
+    {
+      "id": "q-in-cbse-10-math-010",
+      "topicId": "in-cbse-10-math-coordinate-geometry",
+      "difficulty": 1,
+      "status": "published",
+      "prompt": "What is the distance between the points (1, 2) and (4, 6)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "7 units"
+        },
+        {
+          "id": "b",
+          "text": "√7 units"
+        },
+        {
+          "id": "c",
+          "text": "5 units"
+        },
+        {
+          "id": "d",
+          "text": "25 units"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Distance = √[(4 − 1)² + (6 − 2)²] = √(9 + 16) = √25 = 5 units.",
+      "source": {
+        "sourceId": "ncert-mathematics-class-10",
+        "use": "aligned",
+        "reference": "Chapter 7, Coordinate Geometry"
+      }
+    },
+    {
+      "id": "q-in-cbse-10-math-011",
+      "topicId": "in-cbse-10-math-coordinate-geometry",
+      "difficulty": 4,
+      "status": "published",
+      "prompt": "Which point divides the line segment joining A(1, 3) and B(7, 9) internally in the ratio 1 : 2?",
+      "options": [
+        {
+          "id": "a",
+          "text": "(5, 7)"
+        },
+        {
+          "id": "b",
+          "text": "(4, 6)"
+        },
+        {
+          "id": "c",
+          "text": "(2, 4)"
+        },
+        {
+          "id": "d",
+          "text": "(3, 5)"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Section formula: ((1 × 7 + 2 × 1)/3, (1 × 9 + 2 × 3)/3) = (9/3, 15/3) = (3, 5), one third of the way from A. (5, 7) uses the ratio 2 : 1 and (4, 6) is the midpoint.",
+      "source": {
+        "sourceId": "ncert-mathematics-class-10",
+        "use": "aligned",
+        "reference": "Chapter 7, Coordinate Geometry"
+      }
+    },
+    {
+      "id": "q-in-cbse-10-math-012",
+      "topicId": "in-cbse-10-math-introduction-to-trigonometry",
+      "difficulty": 2,
+      "status": "published",
+      "prompt": "If tan A = 5/12 and A is an acute angle, what is sin A?",
+      "options": [
+        {
+          "id": "a",
+          "text": "5/13"
+        },
+        {
+          "id": "b",
+          "text": "12/13"
+        },
+        {
+          "id": "c",
+          "text": "12/5"
+        },
+        {
+          "id": "d",
+          "text": "13/5"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Take opposite side 5 and adjacent side 12; the hypotenuse is √(25 + 144) = 13. So sin A = opposite/hypotenuse = 5/13. (12/13 is cos A.)",
+      "source": {
+        "sourceId": "ncert-mathematics-class-10",
+        "use": "aligned",
+        "reference": "Chapter 8, Introduction to Trigonometry"
+      }
+    },
+    {
+      "id": "q-in-cbse-10-math-013",
+      "topicId": "in-cbse-10-math-applications-of-trigonometry",
+      "difficulty": 3,
+      "status": "published",
+      "prompt": "A vertical flagpole casts a shadow 20 m long on level ground when the sun's angle of elevation is 60°. How tall is the flagpole?",
+      "options": [
+        {
+          "id": "a",
+          "text": "20 m"
+        },
+        {
+          "id": "b",
+          "text": "20√3 m"
+        },
+        {
+          "id": "c",
+          "text": "20/√3 m"
+        },
+        {
+          "id": "d",
+          "text": "40 m"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "tan 60° = height ÷ shadow length, so height = 20 × √3 = 20√3 m (about 34.6 m). 20/√3 m comes from using tan 30° by mistake; 40 m is the distance from the shadow's tip to the top of the pole.",
+      "source": {
+        "sourceId": "ncert-mathematics-class-10",
+        "use": "aligned",
+        "reference": "Chapter 9, Some Applications of Trigonometry"
+      }
+    },
+    {
+      "id": "q-in-cbse-10-math-014",
+      "topicId": "in-cbse-10-math-circles",
+      "difficulty": 3,
+      "status": "published",
+      "prompt": "A tangent is drawn from a point P to a circle of radius 8 cm. If P is 17 cm from the centre, how long is the tangent from P?",
+      "options": [
+        {
+          "id": "a",
+          "text": "9 cm"
+        },
+        {
+          "id": "b",
+          "text": "25 cm"
+        },
+        {
+          "id": "c",
+          "text": "15 cm"
+        },
+        {
+          "id": "d",
+          "text": "√353 cm"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The tangent is perpendicular to the radius at the point of contact, so tangent² = 17² − 8² = 289 − 64 = 225, giving 15 cm.",
+      "source": {
+        "sourceId": "ncert-mathematics-class-10",
+        "use": "aligned",
+        "reference": "Chapter 10, Circles"
+      }
+    },
+    {
+      "id": "q-in-cbse-10-math-015",
+      "topicId": "in-cbse-10-math-areas-related-to-circles",
+      "difficulty": 2,
+      "status": "published",
+      "prompt": "What is the area of a sector of a circle of radius 9 cm whose central angle is 40°?",
+      "options": [
+        {
+          "id": "a",
+          "text": "81π cm²"
+        },
+        {
+          "id": "b",
+          "text": "18π cm²"
+        },
+        {
+          "id": "c",
+          "text": "2π cm²"
+        },
+        {
+          "id": "d",
+          "text": "9π cm²"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Area = (θ/360°) × πr² = (40/360) × π × 81 = 9π cm². 81π cm² is the whole circle, and 2π cm is the length of this sector's arc, not its area.",
+      "source": {
+        "sourceId": "ncert-mathematics-class-10",
+        "use": "aligned",
+        "reference": "Chapter 11, Areas Related to Circles"
+      }
+    },
+    {
+      "id": "q-in-cbse-10-math-016",
+      "topicId": "in-cbse-10-math-surface-areas-and-volumes",
+      "difficulty": 4,
+      "status": "published",
+      "prompt": "A solid is a cylinder of radius r and height h with a hemisphere of the same radius fixed on top. What is its volume?",
+      "options": [
+        {
+          "id": "a",
+          "text": "πr²h + (2/3)πr³"
+        },
+        {
+          "id": "b",
+          "text": "πr²h + (4/3)πr³"
+        },
+        {
+          "id": "c",
+          "text": "πr²h + 2πr²"
+        },
+        {
+          "id": "d",
+          "text": "(1/3)πr²h + (2/3)πr³"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Add the parts: the cylinder is πr²h and the hemisphere is half of (4/3)πr³, which is (2/3)πr³. (4/3)πr³ is a whole sphere and (1/3)πr²h is a cone.",
+      "source": {
+        "sourceId": "ncert-mathematics-class-10",
+        "use": "aligned",
+        "reference": "Chapter 12, Surface Areas and Volumes"
+      }
+    },
+    {
+      "id": "q-in-cbse-10-math-017",
+      "topicId": "in-cbse-10-math-statistics",
+      "difficulty": 5,
+      "status": "published",
+      "prompt": "In grouped data the modal class is 20–30 with frequency 12. The class before it has frequency 8 and the class after it has 6. What is the mode?",
+      "options": [
+        {
+          "id": "a",
+          "text": "25"
+        },
+        {
+          "id": "b",
+          "text": "24"
+        },
+        {
+          "id": "c",
+          "text": "26"
+        },
+        {
+          "id": "d",
+          "text": "22"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Mode = l + [(f₁ − f₀)/(2f₁ − f₀ − f₂)] × h = 20 + [(12 − 8)/(24 − 8 − 6)] × 10 = 20 + (4/10) × 10 = 24.",
+      "source": {
+        "sourceId": "ncert-mathematics-class-10",
+        "use": "aligned",
+        "reference": "Chapter 13, Statistics"
+      }
+    },
+    {
+      "id": "q-in-cbse-10-math-018",
+      "topicId": "in-cbse-10-math-probability",
+      "difficulty": 2,
+      "status": "published",
+      "prompt": "A fair die is thrown once. What is the probability of getting a perfect square?",
+      "options": [
+        {
+          "id": "a",
+          "text": "1/6"
+        },
+        {
+          "id": "b",
+          "text": "1/3"
+        },
+        {
+          "id": "c",
+          "text": "1/2"
+        },
+        {
+          "id": "d",
+          "text": "2/3"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 = 1² and 4 = 2² are the perfect squares on a die: 2 of the 6 equally likely outcomes, so P = 2/6 = 1/3. (Forgetting that 1 is a perfect square gives 1/6.)",
+      "source": {
+        "sourceId": "ncert-mathematics-class-10",
+        "use": "aligned",
+        "reference": "Chapter 14, Probability"
+      }
+    },
+    {
+      "id": "q-in-cbse-10-sci-001",
+      "topicId": "in-cbse-10-sci-chemical-reactions-and-equations",
+      "difficulty": 1,
+      "status": "published",
+      "prompt": "Quicklime reacts with water: CaO + H₂O → Ca(OH)₂. What type of reaction is this?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Decomposition"
+        },
+        {
+          "id": "b",
+          "text": "Displacement"
+        },
+        {
+          "id": "c",
+          "text": "Double displacement"
+        },
+        {
+          "id": "d",
+          "text": "Combination"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Two substances join to form a single product, so it is a combination reaction (it also gives out heat). Decomposition is the reverse: one substance breaking into two or more.",
+      "source": {
+        "sourceId": "ncert-science-class-10",
+        "use": "aligned",
+        "reference": "Chapter 1, Chemical Reactions and Equations"
+      }
+    },
+    {
+      "id": "q-in-cbse-10-sci-002",
+      "topicId": "in-cbse-10-sci-chemical-reactions-and-equations",
+      "difficulty": 3,
+      "status": "published",
+      "prompt": "In the reaction CuO + H₂ → Cu + H₂O, which substance is oxidised?",
+      "options": [
+        {
+          "id": "a",
+          "text": "H₂"
+        },
+        {
+          "id": "b",
+          "text": "CuO"
+        },
+        {
+          "id": "c",
+          "text": "Cu"
+        },
+        {
+          "id": "d",
+          "text": "H₂O"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Hydrogen gains oxygen to become water, so H₂ is oxidised. Copper(II) oxide loses oxygen, so it is reduced; Cu and H₂O are the products.",
+      "source": {
+        "sourceId": "ncert-science-class-10",
+        "use": "aligned",
+        "reference": "Chapter 1, Chemical Reactions and Equations"
+      }
+    },
+    {
+      "id": "q-in-cbse-10-sci-003",
+      "topicId": "in-cbse-10-sci-acids-bases-and-salts",
+      "difficulty": 2,
+      "status": "published",
+      "prompt": "A solution turns red litmus paper blue. Which pH could it have?",
+      "options": [
+        {
+          "id": "a",
+          "text": "1"
+        },
+        {
+          "id": "b",
+          "text": "10"
+        },
+        {
+          "id": "c",
+          "text": "7"
+        },
+        {
+          "id": "d",
+          "text": "4"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Turning red litmus blue shows the solution is basic, and basic solutions have a pH above 7. pH 7 is neutral; pH 1 and 4 are acidic.",
+      "source": {
+        "sourceId": "ncert-science-class-10",
+        "use": "aligned",
+        "reference": "Chapter 2, Acids, Bases and Salts"
+      }
+    },
+    {
+      "id": "q-in-cbse-10-sci-004",
+      "topicId": "in-cbse-10-sci-acids-bases-and-salts",
+      "difficulty": 4,
+      "status": "published",
+      "prompt": "Which gas is given off when zinc granules are warmed with sodium hydroxide solution?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Oxygen"
+        },
+        {
+          "id": "b",
+          "text": "Chlorine"
+        },
+        {
+          "id": "c",
+          "text": "Hydrogen"
+        },
+        {
+          "id": "d",
+          "text": "Carbon dioxide"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Zinc reacts with sodium hydroxide to form sodium zincate and hydrogen gas: 2NaOH + Zn → Na₂ZnO₂ + H₂.",
+      "source": {
+        "sourceId": "ncert-science-class-10",
+        "use": "aligned",
+        "reference": "Chapter 2, Acids, Bases and Salts"
+      }
+    },
+    {
+      "id": "q-in-cbse-10-sci-005",
+      "topicId": "in-cbse-10-sci-metals-and-non-metals",
+      "difficulty": 3,
+      "status": "published",
+      "prompt": "Which of these metals does NOT give hydrogen gas with dilute hydrochloric acid?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Magnesium"
+        },
+        {
+          "id": "b",
+          "text": "Zinc"
+        },
+        {
+          "id": "c",
+          "text": "Iron"
+        },
+        {
+          "id": "d",
+          "text": "Copper"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Only metals above hydrogen in the activity series displace hydrogen from dilute acids. Copper is below hydrogen; magnesium, zinc and iron are above it.",
+      "source": {
+        "sourceId": "ncert-science-class-10",
+        "use": "aligned",
+        "reference": "Chapter 3, Metals and Non-metals"
+      }
+    },
+    {
+      "id": "q-in-cbse-10-sci-006",
+      "topicId": "in-cbse-10-sci-carbon-and-its-compounds",
+      "difficulty": 3,
+      "status": "published",
+      "prompt": "Which of these could be the molecular formula of an alkyne?",
+      "options": [
+        {
+          "id": "a",
+          "text": "C₃H₄"
+        },
+        {
+          "id": "b",
+          "text": "C₃H₆"
+        },
+        {
+          "id": "c",
+          "text": "C₃H₈"
+        },
+        {
+          "id": "d",
+          "text": "C₄H₈"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Alkynes have a triple bond and fit CₙH₂ₙ₋₂; for n = 3 that is C₃H₄ (propyne). C₃H₈ fits the alkane formula CₙH₂ₙ₊₂, and C₃H₆ and C₄H₈ fit the alkene formula CₙH₂ₙ.",
+      "source": {
+        "sourceId": "ncert-science-class-10",
+        "use": "aligned",
+        "reference": "Chapter 4, Carbon and its Compounds"
+      }
+    },
+    {
+      "id": "q-in-cbse-10-sci-007",
+      "topicId": "in-cbse-10-sci-life-processes",
+      "difficulty": 2,
+      "status": "published",
+      "prompt": "In aerobic respiration, where in the cell is pyruvate broken down using oxygen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cytoplasm"
+        },
+        {
+          "id": "b",
+          "text": "Mitochondria"
+        },
+        {
+          "id": "c",
+          "text": "Chloroplast"
+        },
+        {
+          "id": "d",
+          "text": "Nucleus"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Glucose is first split into pyruvate in the cytoplasm. The breakdown of pyruvate using oxygen, into carbon dioxide and water, happens in the mitochondria.",
+      "source": {
+        "sourceId": "ncert-science-class-10",
+        "use": "aligned",
+        "reference": "Chapter 5, Life Processes"
+      }
+    },
+    {
+      "id": "q-in-cbse-10-sci-008",
+      "topicId": "in-cbse-10-sci-life-processes",
+      "difficulty": 1,
+      "status": "published",
+      "prompt": "What are the tiny filtering units of the human kidney called?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Neurons"
+        },
+        {
+          "id": "b",
+          "text": "Alveoli"
+        },
+        {
+          "id": "c",
+          "text": "Nephrons"
+        },
+        {
+          "id": "d",
+          "text": "Villi"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Each kidney has a large number of nephrons that filter the blood. Neurons are nerve cells, alveoli are air sacs in the lungs and villi line the small intestine.",
+      "source": {
+        "sourceId": "ncert-science-class-10",
+        "use": "aligned",
+        "reference": "Chapter 5, Life Processes"
+      }
+    },
+    {
+      "id": "q-in-cbse-10-sci-009",
+      "topicId": "in-cbse-10-sci-control-and-coordination",
+      "difficulty": 3,
+      "status": "published",
+      "prompt": "Which plant hormone inhibits growth and causes wilting of leaves?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Auxin"
+        },
+        {
+          "id": "b",
+          "text": "Gibberellin"
+        },
+        {
+          "id": "c",
+          "text": "Cytokinin"
+        },
+        {
+          "id": "d",
+          "text": "Abscisic acid"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Abscisic acid is a growth inhibitor; its effects include wilting of leaves. Auxins, gibberellins and cytokinins all promote growth.",
+      "source": {
+        "sourceId": "ncert-science-class-10",
+        "use": "aligned",
+        "reference": "Chapter 6, Control and Coordination"
+      }
+    },
+    {
+      "id": "q-in-cbse-10-sci-010",
+      "topicId": "in-cbse-10-sci-how-do-organisms-reproduce",
+      "difficulty": 3,
+      "status": "published",
+      "prompt": "In a flowering plant, what does the ovary develop into after fertilisation?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The fruit"
+        },
+        {
+          "id": "b",
+          "text": "The seed"
+        },
+        {
+          "id": "c",
+          "text": "The embryo"
+        },
+        {
+          "id": "d",
+          "text": "The pollen tube"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "After fertilisation the ovary grows and ripens into the fruit. The ovule becomes the seed, and the zygote inside it grows into the embryo.",
+      "source": {
+        "sourceId": "ncert-science-class-10",
+        "use": "aligned",
+        "reference": "Chapter 7, How do Organisms Reproduce?"
+      }
+    },
+    {
+      "id": "q-in-cbse-10-sci-011",
+      "topicId": "in-cbse-10-sci-heredity",
+      "difficulty": 5,
+      "status": "published",
+      "prompt": "Pea plants with round yellow seeds (RRYY) are crossed with wrinkled green ones (rryy), and the F1 are self-crossed. What fraction of the F2 is wrinkled and green?",
+      "options": [
+        {
+          "id": "a",
+          "text": "3/16"
+        },
+        {
+          "id": "b",
+          "text": "1/16"
+        },
+        {
+          "id": "c",
+          "text": "9/16"
+        },
+        {
+          "id": "d",
+          "text": "1/4"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The F1 is RrYy. Wrinkled needs rr (1/4) and green needs yy (1/4), inherited independently, so 1/4 × 1/4 = 1/16. The F2 ratio is 9 round yellow : 3 round green : 3 wrinkled yellow : 1 wrinkled green.",
+      "source": {
+        "sourceId": "ncert-science-class-10",
+        "use": "aligned",
+        "reference": "Chapter 8, Heredity"
+      }
+    },
+    {
+      "id": "q-in-cbse-10-sci-012",
+      "topicId": "in-cbse-10-sci-our-environment",
+      "difficulty": 4,
+      "status": "published",
+      "prompt": "In the food chain grass → deer → lion, the grass holds 10,000 J of energy. By the 10% rule, about how much energy reaches the lion?",
+      "options": [
+        {
+          "id": "a",
+          "text": "1,000 J"
+        },
+        {
+          "id": "b",
+          "text": "10 J"
+        },
+        {
+          "id": "c",
+          "text": "100 J"
+        },
+        {
+          "id": "d",
+          "text": "5,000 J"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "About 10% passes to each next level: 10,000 J × 10% = 1,000 J reaches the deer, then 1,000 J × 10% = 100 J reaches the lion.",
+      "source": {
+        "sourceId": "ncert-science-class-10",
+        "use": "aligned",
+        "reference": "Chapter 13, Our Environment"
+      }
+    },
+    {
+      "id": "q-in-cbse-10-sci-013",
+      "topicId": "in-cbse-10-sci-light-reflection-and-refraction",
+      "difficulty": 1,
+      "status": "published",
+      "prompt": "The centre of curvature of a concave mirror is 24 cm in front of its pole. How far from the pole is its principal focus?",
+      "options": [
+        {
+          "id": "a",
+          "text": "48 cm"
+        },
+        {
+          "id": "b",
+          "text": "24 cm"
+        },
+        {
+          "id": "c",
+          "text": "6 cm"
+        },
+        {
+          "id": "d",
+          "text": "12 cm"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The principal focus lies midway between the pole and the centre of curvature, so f = R/2 = 24/2 = 12 cm.",
+      "source": {
+        "sourceId": "ncert-science-class-10",
+        "use": "aligned",
+        "reference": "Chapter 9, Light – Reflection and Refraction"
+      }
+    },
+    {
+      "id": "q-in-cbse-10-sci-014",
+      "topicId": "in-cbse-10-sci-light-reflection-and-refraction",
+      "difficulty": 3,
+      "status": "published",
+      "prompt": "An object is placed 30 cm from a convex lens of focal length 15 cm. What kind of image is formed?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Real, inverted and the same size"
+        },
+        {
+          "id": "b",
+          "text": "Real, inverted and enlarged"
+        },
+        {
+          "id": "c",
+          "text": "Real, inverted and diminished"
+        },
+        {
+          "id": "d",
+          "text": "Virtual, erect and enlarged"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "30 cm is twice the focal length, so the object is at 2F. The image forms at 2F on the other side of the lens: real, inverted and the same size as the object.",
+      "source": {
+        "sourceId": "ncert-science-class-10",
+        "use": "aligned",
+        "reference": "Chapter 9, Light – Reflection and Refraction"
+      }
+    },
+    {
+      "id": "q-in-cbse-10-sci-015",
+      "topicId": "in-cbse-10-sci-human-eye-and-colourful-world",
+      "difficulty": 2,
+      "status": "published",
+      "prompt": "Rahul sees his phone screen clearly, but distant road signs look blurred. Which defect of vision does he have, and which lens corrects it?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hypermetropia; convex lens"
+        },
+        {
+          "id": "b",
+          "text": "Myopia; concave lens"
+        },
+        {
+          "id": "c",
+          "text": "Myopia; convex lens"
+        },
+        {
+          "id": "d",
+          "text": "Hypermetropia; concave lens"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Seeing near objects clearly but not distant ones is myopia (near-sightedness). A concave (diverging) lens of suitable power corrects it.",
+      "source": {
+        "sourceId": "ncert-science-class-10",
+        "use": "aligned",
+        "reference": "Chapter 10, The Human Eye and the Colourful World"
+      }
+    },
+    {
+      "id": "q-in-cbse-10-sci-016",
+      "topicId": "in-cbse-10-sci-electricity",
+      "difficulty": 2,
+      "status": "published",
+      "prompt": "Two 6 Ω resistors are connected in parallel. What is their equivalent resistance?",
+      "options": [
+        {
+          "id": "a",
+          "text": "12 Ω"
+        },
+        {
+          "id": "b",
+          "text": "6 Ω"
+        },
+        {
+          "id": "c",
+          "text": "3 Ω"
+        },
+        {
+          "id": "d",
+          "text": "1/3 Ω"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "1/R = 1/6 + 1/6 = 2/6 = 1/3, so R = 3 Ω. 12 Ω is the series value, and 1/3 is the value of 1/R, not R.",
+      "source": {
+        "sourceId": "ncert-science-class-10",
+        "use": "aligned",
+        "reference": "Chapter 11, Electricity"
+      }
+    },
+    {
+      "id": "q-in-cbse-10-sci-017",
+      "topicId": "in-cbse-10-sci-electricity",
+      "difficulty": 5,
+      "status": "published",
+      "prompt": "A wire of resistance R is stretched to twice its length while its volume stays the same. What is its new resistance?",
+      "options": [
+        {
+          "id": "a",
+          "text": "2R"
+        },
+        {
+          "id": "b",
+          "text": "R/2"
+        },
+        {
+          "id": "c",
+          "text": "R"
+        },
+        {
+          "id": "d",
+          "text": "4R"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "R = ρl/A. Doubling the length at constant volume halves the cross-sectional area, so the new resistance is ρ(2l)/(A/2) = 4ρl/A = 4R.",
+      "source": {
+        "sourceId": "ncert-science-class-10",
+        "use": "aligned",
+        "reference": "Chapter 11, Electricity"
+      }
+    },
+    {
+      "id": "q-in-cbse-10-sci-018",
+      "topicId": "in-cbse-10-sci-magnetic-effects-of-electric-current",
+      "difficulty": 3,
+      "status": "published",
+      "prompt": "What do the magnetic field lines inside a long current-carrying solenoid look like?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Parallel straight lines"
+        },
+        {
+          "id": "b",
+          "text": "Concentric circles"
+        },
+        {
+          "id": "c",
+          "text": "Lines spreading out from the centre"
+        },
+        {
+          "id": "d",
+          "text": "There are no field lines inside"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Inside a long solenoid the field lines are parallel straight lines, showing the field is uniform there. Concentric circles are the pattern around a straight current-carrying wire.",
+      "source": {
+        "sourceId": "ncert-science-class-10",
+        "use": "aligned",
+        "reference": "Chapter 12, Magnetic Effects of Electric Current"
+      }
+    },
+    {
+      "id": "q-in-cbse-10-sst-001",
+      "topicId": "in-cbse-10-sst-rise-of-nationalism-in-europe",
+      "difficulty": 2,
+      "status": "published",
+      "prompt": "Who is described as the architect of German unification, carried out with the help of the Prussian army and bureaucracy?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Giuseppe Mazzini"
+        },
+        {
+          "id": "b",
+          "text": "Otto von Bismarck"
+        },
+        {
+          "id": "c",
+          "text": "Count Cavour"
+        },
+        {
+          "id": "d",
+          "text": "Kaiser William I"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Otto von Bismarck, chief minister of Prussia, led German unification through wars with Denmark, Austria and France. William I was proclaimed emperor in 1871; Mazzini and Cavour belong to Italy's story.",
+      "source": {
+        "sourceId": "ncert-history-class-10",
+        "use": "aligned",
+        "reference": "India and the Contemporary World II, Chapter 1, The Rise of Nationalism in Europe"
+      }
+    },
+    {
+      "id": "q-in-cbse-10-sst-002",
+      "topicId": "in-cbse-10-sst-rise-of-nationalism-in-europe",
+      "difficulty": 5,
+      "status": "published",
+      "prompt": "Which country was recognised as an independent nation by the Treaty of Constantinople of 1832?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Belgium"
+        },
+        {
+          "id": "b",
+          "text": "Italy"
+        },
+        {
+          "id": "c",
+          "text": "Greece"
+        },
+        {
+          "id": "d",
+          "text": "Poland"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Greece, part of the Ottoman Empire since the fifteenth century, began its struggle for independence in 1821 and was recognised as independent by the Treaty of Constantinople in 1832.",
+      "source": {
+        "sourceId": "ncert-history-class-10",
+        "use": "aligned",
+        "reference": "India and the Contemporary World II, Chapter 1, The Rise of Nationalism in Europe"
+      }
+    },
+    {
+      "id": "q-in-cbse-10-sst-003",
+      "topicId": "in-cbse-10-sst-nationalism-in-india",
+      "difficulty": 3,
+      "status": "published",
+      "prompt": "Why did Gandhiji call off the Non-Cooperation Movement in February 1922?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The Gandhi–Irwin Pact had been signed"
+        },
+        {
+          "id": "b",
+          "text": "The Simon Commission had arrived"
+        },
+        {
+          "id": "c",
+          "text": "The Jallianwala Bagh massacre took place"
+        },
+        {
+          "id": "d",
+          "text": "Violence broke out at Chauri Chaura"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "At Chauri Chaura (Gorakhpur) a peaceful demonstration turned into a violent clash with the police, so Gandhiji halted the movement. Jallianwala Bagh was in 1919; the Simon Commission (1928) and Gandhi–Irwin Pact (1931) came later.",
+      "source": {
+        "sourceId": "ncert-history-class-10",
+        "use": "aligned",
+        "reference": "India and the Contemporary World II, Chapter 2, Nationalism in India"
+      }
+    },
+    {
+      "id": "q-in-cbse-10-sst-004",
+      "topicId": "in-cbse-10-sst-resources-and-development",
+      "difficulty": 1,
+      "status": "published",
+      "prompt": "Which soil, also called regur, is ideal for growing cotton?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Black soil"
+        },
+        {
+          "id": "b",
+          "text": "Alluvial soil"
+        },
+        {
+          "id": "c",
+          "text": "Laterite soil"
+        },
+        {
+          "id": "d",
+          "text": "Red soil"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Black soil is known as regur soil, and because it suits cotton so well it is also called black cotton soil.",
+      "source": {
+        "sourceId": "ncert-geography-class-10",
+        "use": "aligned",
+        "reference": "Contemporary India II, Chapter 1, Resources and Development"
+      }
+    },
+    {
+      "id": "q-in-cbse-10-sst-005",
+      "topicId": "in-cbse-10-sst-agriculture",
+      "difficulty": 2,
+      "status": "published",
+      "prompt": "Which of these is a rabi crop, sown in winter and harvested in summer?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Paddy"
+        },
+        {
+          "id": "b",
+          "text": "Wheat"
+        },
+        {
+          "id": "c",
+          "text": "Cotton"
+        },
+        {
+          "id": "d",
+          "text": "Groundnut"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Rabi crops are sown from October to December and harvested from April to June; wheat, barley, peas, gram and mustard are examples. Paddy, cotton and groundnut are kharif crops, grown with the monsoon.",
+      "source": {
+        "sourceId": "ncert-geography-class-10",
+        "use": "aligned",
+        "reference": "Contemporary India II, Chapter 4, Agriculture"
+      }
+    },
+    {
+      "id": "q-in-cbse-10-sst-006",
+      "topicId": "in-cbse-10-sst-water-resources",
+      "difficulty": 3,
+      "status": "published",
+      "prompt": "In Bikaner, Phalodi and Barmer in Rajasthan, houses traditionally stored rooftop rainwater for drinking in underground tanks. What were these tanks called?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Johads"
+        },
+        {
+          "id": "b",
+          "text": "Kuls"
+        },
+        {
+          "id": "c",
+          "text": "Tankas"
+        },
+        {
+          "id": "d",
+          "text": "Khadins"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Tankas were underground tanks, part of rooftop rainwater harvesting, that held drinking water until the next rain. Khadins and johads are rain-fed field storage; kuls are Himalayan diversion channels.",
+      "source": {
+        "sourceId": "ncert-geography-class-10",
+        "use": "aligned",
+        "reference": "Contemporary India II, Chapter 3, Water Resources"
+      }
+    },
+    {
+      "id": "q-in-cbse-10-sst-007",
+      "topicId": "in-cbse-10-sst-power-sharing",
+      "difficulty": 3,
+      "status": "published",
+      "prompt": "Belgium's 'community government' is elected by the people of one language community, wherever they live. This is power shared among…",
+      "options": [
+        {
+          "id": "a",
+          "text": "Organs of government"
+        },
+        {
+          "id": "b",
+          "text": "Levels of government"
+        },
+        {
+          "id": "c",
+          "text": "Political parties"
+        },
+        {
+          "id": "d",
+          "text": "Social groups"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Community government gives each language group (Dutch, French and German speakers) power over cultural, educational and language issues, so it shares power among social groups.",
+      "source": {
+        "sourceId": "ncert-political-science-class-10",
+        "use": "aligned",
+        "reference": "Democratic Politics II, Chapter 1, Power Sharing"
+      }
+    },
+    {
+      "id": "q-in-cbse-10-sst-008",
+      "topicId": "in-cbse-10-sst-federalism",
+      "difficulty": 2,
+      "status": "published",
+      "prompt": "In India's Constitution, which list contains subjects such as defence, foreign affairs and banking?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Union List"
+        },
+        {
+          "id": "b",
+          "text": "State List"
+        },
+        {
+          "id": "c",
+          "text": "Concurrent List"
+        },
+        {
+          "id": "d",
+          "text": "Residuary subjects"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Subjects of national importance, such as defence, foreign affairs, banking, communications and currency, are in the Union List, and only the Union Government can make laws on them.",
+      "source": {
+        "sourceId": "ncert-political-science-class-10",
+        "use": "aligned",
+        "reference": "Democratic Politics II, Chapter 2, Federalism"
+      }
+    },
+    {
+      "id": "q-in-cbse-10-sst-009",
+      "topicId": "in-cbse-10-sst-political-parties",
+      "difficulty": 1,
+      "status": "published",
+      "prompt": "Every political party in India has to register with which body?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The Supreme Court"
+        },
+        {
+          "id": "b",
+          "text": "The Election Commission"
+        },
+        {
+          "id": "c",
+          "text": "Parliament"
+        },
+        {
+          "id": "d",
+          "text": "The President"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Parties register with the Election Commission of India, which also recognises large, established parties and gives them a unique election symbol.",
+      "source": {
+        "sourceId": "ncert-political-science-class-10",
+        "use": "aligned",
+        "reference": "Democratic Politics II, Chapter 4, Political Parties"
+      }
+    },
+    {
+      "id": "q-in-cbse-10-sst-010",
+      "topicId": "in-cbse-10-sst-development",
+      "difficulty": 3,
+      "status": "published",
+      "prompt": "Which organisation publishes the Human Development Report, which compares countries by education, health and per capita income?",
+      "options": [
+        {
+          "id": "a",
+          "text": "World Bank"
+        },
+        {
+          "id": "b",
+          "text": "IMF"
+        },
+        {
+          "id": "c",
+          "text": "UNDP"
+        },
+        {
+          "id": "d",
+          "text": "WTO"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The Human Development Report is published by the UNDP (United Nations Development Programme). The World Bank, by contrast, compares countries mainly by per capita income.",
+      "source": {
+        "sourceId": "ncert-economics-class-10",
+        "use": "aligned",
+        "reference": "Understanding Economic Development, Chapter 1, Development"
+      }
+    },
+    {
+      "id": "q-in-cbse-10-sst-011",
+      "topicId": "in-cbse-10-sst-sectors-of-the-indian-economy",
+      "difficulty": 2,
+      "status": "published",
+      "prompt": "As the NCERT textbook describes it, how many days of work a year did MGNREGA 2005 guarantee to people in rural areas who needed work?",
+      "options": [
+        {
+          "id": "a",
+          "text": "150 days"
+        },
+        {
+          "id": "b",
+          "text": "200 days"
+        },
+        {
+          "id": "c",
+          "text": "365 days"
+        },
+        {
+          "id": "d",
+          "text": "100 days"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "MGNREGA 2005 guaranteed 100 days of employment a year to rural people able and needing to work, or an unemployment allowance. (In 2025 a new Act, VB-G RAM G, replaced it with 125 days from July 2026.)",
+      "source": {
+        "sourceId": "ncert-economics-class-10",
+        "use": "aligned",
+        "reference": "Understanding Economic Development, Chapter 2, Sectors of the Indian Economy"
+      }
+    },
+    {
+      "id": "q-in-cbse-10-sst-012",
+      "topicId": "in-cbse-10-sst-money-and-credit",
+      "difficulty": 4,
+      "status": "published",
+      "prompt": "A farmer borrows money to grow a crop, pests destroy the crop, and he must sell part of his land to repay the loan. What is this situation called?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Debt trap"
+        },
+        {
+          "id": "b",
+          "text": "Collateral"
+        },
+        {
+          "id": "c",
+          "text": "Double coincidence of wants"
+        },
+        {
+          "id": "d",
+          "text": "Terms of credit"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "When credit leaves the borrower worse off and recovery is very painful, as here, it is called a debt trap. Collateral is an asset pledged against a loan; terms of credit are the loan's conditions.",
+      "source": {
+        "sourceId": "ncert-economics-class-10",
+        "use": "aligned",
+        "reference": "Understanding Economic Development, Chapter 3, Money and Credit"
+      }
+    }
+  ]
+}

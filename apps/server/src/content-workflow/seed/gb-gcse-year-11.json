@@ -1,0 +1,886 @@
+{
+  "format": 1,
+  "description": "Original Year 11 GCSE (England) questions in mathematics, biology, chemistry, physics and geography, written to the AQA specifications 8300, 8464 and 8035.",
+  "countries": [{ "id": "gb", "name": "United Kingdom" }],
+  "curricula": [
+    {
+      "id": "gb-gcse",
+      "countryId": "gb",
+      "name": "GCSE (England)",
+      "description": "General Certificate of Secondary Education as taught in England, examined at the end of Year 11 (Key Stage 4)."
+    }
+  ],
+  "levels": [
+    {
+      "id": "gb-gcse-year-11",
+      "curriculumId": "gb-gcse",
+      "name": "Year 11",
+      "order": 11,
+      "ages": [15, 16],
+      "description": "The final year of Key Stage 4, when students sit their GCSE examinations."
+    }
+  ],
+  "topics": [
+    { "id": "gb-gcse-11-math-number", "levelId": "gb-gcse-year-11", "subjectId": "mathematics", "name": "Number", "description": "Factors and multiples, powers and roots, surds, standard form and accuracy." },
+    { "id": "gb-gcse-11-math-algebra", "levelId": "gb-gcse-year-11", "subjectId": "mathematics", "name": "Algebra", "description": "Expanding and factorising, solving equations, sequences and functions." },
+    { "id": "gb-gcse-11-math-ratio-proportion", "levelId": "gb-gcse-year-11", "subjectId": "mathematics", "name": "Ratio, proportion and rates of change", "description": "Sharing in a ratio, percentage change and direct and inverse proportion." },
+    { "id": "gb-gcse-11-math-geometry-measures", "levelId": "gb-gcse-year-11", "subjectId": "mathematics", "name": "Geometry and measures", "description": "Angles in polygons, circle theorems and similar shapes." },
+    { "id": "gb-gcse-11-math-probability", "levelId": "gb-gcse-year-11", "subjectId": "mathematics", "name": "Probability", "description": "The probability scale, exhaustive outcomes and combined events." },
+    { "id": "gb-gcse-11-math-statistics", "levelId": "gb-gcse-year-11", "subjectId": "mathematics", "name": "Statistics", "description": "Averages and spread, and histograms with frequency density." },
+    { "id": "gb-gcse-11-bio-cell-biology", "levelId": "gb-gcse-year-11", "subjectId": "biology", "name": "Cell biology", "description": "Cell structure, microscopy and transport in cells." },
+    { "id": "gb-gcse-11-bio-organisation", "levelId": "gb-gcse-year-11", "subjectId": "biology", "name": "Organisation", "description": "Tissues, organs and organ systems, including the heart and blood vessels." },
+    { "id": "gb-gcse-11-bio-infection-response", "levelId": "gb-gcse-year-11", "subjectId": "biology", "name": "Infection and response", "description": "Pathogens, the body's defences, vaccination and medicines." },
+    { "id": "gb-gcse-11-bio-bioenergetics", "levelId": "gb-gcse-year-11", "subjectId": "biology", "name": "Bioenergetics", "description": "Photosynthesis and aerobic and anaerobic respiration." },
+    { "id": "gb-gcse-11-bio-homeostasis-response", "levelId": "gb-gcse-year-11", "subjectId": "biology", "name": "Homeostasis and response", "description": "The nervous system and hormonal coordination in humans." },
+    { "id": "gb-gcse-11-bio-inheritance-variation-evolution", "levelId": "gb-gcse-year-11", "subjectId": "biology", "name": "Inheritance, variation and evolution", "description": "Genetic inheritance, inherited disorders, variation and evolution." },
+    { "id": "gb-gcse-11-chem-atomic-structure-periodic-table", "levelId": "gb-gcse-year-11", "subjectId": "chemistry", "name": "Atomic structure and the periodic table", "description": "Subatomic particles, electronic structure and trends in groups." },
+    { "id": "gb-gcse-11-chem-quantitative-chemistry", "levelId": "gb-gcse-year-11", "subjectId": "chemistry", "name": "Quantitative chemistry", "description": "Relative formula mass, conservation of mass and moles." },
+    { "id": "gb-gcse-11-chem-chemical-changes", "levelId": "gb-gcse-year-11", "subjectId": "chemistry", "name": "Chemical changes", "description": "Reactivity of metals, reactions of acids, pH and electrolysis." },
+    { "id": "gb-gcse-11-chem-rate-extent", "levelId": "gb-gcse-year-11", "subjectId": "chemistry", "name": "The rate and extent of chemical change", "description": "Rates of reaction, collision theory, catalysts and equilibrium." },
+    { "id": "gb-gcse-11-chem-organic-chemistry", "levelId": "gb-gcse-year-11", "subjectId": "chemistry", "name": "Organic chemistry", "description": "Crude oil, hydrocarbons, alkanes, fractional distillation and cracking." },
+    { "id": "gb-gcse-11-chem-chemical-analysis", "levelId": "gb-gcse-year-11", "subjectId": "chemistry", "name": "Chemical analysis", "description": "Purity, chromatography and tests for common gases." },
+    { "id": "gb-gcse-11-phys-energy", "levelId": "gb-gcse-year-11", "subjectId": "physics", "name": "Energy", "description": "Energy stores and transfers, power and efficiency." },
+    { "id": "gb-gcse-11-phys-electricity", "levelId": "gb-gcse-year-11", "subjectId": "physics", "name": "Electricity", "description": "Current, potential difference and resistance, circuits and mains electricity." },
+    { "id": "gb-gcse-11-phys-particle-model", "levelId": "gb-gcse-year-11", "subjectId": "physics", "name": "Particle model of matter", "description": "Density, changes of state, internal energy and gas pressure." },
+    { "id": "gb-gcse-11-phys-atomic-structure", "levelId": "gb-gcse-year-11", "subjectId": "physics", "name": "Atomic structure", "description": "Atoms and isotopes, nuclear radiation and half-life." },
+    { "id": "gb-gcse-11-phys-forces", "levelId": "gb-gcse-year-11", "subjectId": "physics", "name": "Forces", "description": "Forces and motion, Newton's laws, stopping distances and momentum." },
+    { "id": "gb-gcse-11-phys-waves", "levelId": "gb-gcse-year-11", "subjectId": "physics", "name": "Waves", "description": "Properties of waves and the electromagnetic spectrum." },
+    { "id": "gb-gcse-11-geog-natural-hazards", "levelId": "gb-gcse-year-11", "subjectId": "geography", "name": "The challenge of natural hazards", "description": "Tectonic and weather hazards, atmospheric circulation and climate change." },
+    { "id": "gb-gcse-11-geog-living-world", "levelId": "gb-gcse-year-11", "subjectId": "geography", "name": "The living world", "description": "Ecosystems and tropical rainforests." },
+    { "id": "gb-gcse-11-geog-uk-physical-landscapes", "levelId": "gb-gcse-year-11", "subjectId": "geography", "name": "Physical landscapes in the UK", "description": "The UK's upland and lowland areas and river systems." },
+    { "id": "gb-gcse-11-geog-urban-issues", "levelId": "gb-gcse-year-11", "subjectId": "geography", "name": "Urban issues and challenges", "description": "Urbanisation, migration and the challenges of growing cities." },
+    { "id": "gb-gcse-11-geog-changing-economic-world", "levelId": "gb-gcse-year-11", "subjectId": "geography", "name": "The changing economic world", "description": "Measuring development, the Demographic Transition Model and the UK economy." },
+    { "id": "gb-gcse-11-geog-resource-management", "levelId": "gb-gcse-year-11", "subjectId": "geography", "name": "The challenge of resource management", "description": "Food, water and energy, and resources in the UK." }
+  ],
+  "sources": [
+    {
+      "id": "aqa-gcse-mathematics-8300",
+      "title": "GCSE Mathematics (8300) specification",
+      "publisher": "AQA",
+      "url": "https://www.aqa.org.uk/subjects/mathematics/gcse/mathematics-8300/specification",
+      "year": 2015,
+      "licence": "© AQA. Questions in this bank are original, written to the specification; none are copied from AQA papers.",
+      "notes": "URL confirmed as the official AQA specification page. Specification for first teaching in 2015 (version 1.0, exams from May/June 2017). References use the specification's content codes (N, A, R, G, P, S)."
+    },
+    {
+      "id": "aqa-gcse-combined-science-trilogy-8464",
+      "title": "GCSE Combined Science: Trilogy (8464) specification",
+      "publisher": "AQA",
+      "url": "https://www.aqa.org.uk/subjects/science/gcse/combined-science-trilogy-8464/specification",
+      "year": 2016,
+      "licence": "© AQA. Questions in this bank are original, written to the specification; none are copied from AQA papers.",
+      "notes": "URL confirmed as the official AQA specification page. Specification for first teaching in 2016 (version 1.1, 4 October 2019). Biology is section 4, chemistry section 5 and physics section 6; HT marks Higher-tier-only content."
+    },
+    {
+      "id": "aqa-gcse-geography-8035",
+      "title": "GCSE Geography (8035) specification",
+      "publisher": "AQA",
+      "url": "https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/specification",
+      "year": 2016,
+      "licence": "© AQA. Questions in this bank are original, written to the specification; none are copied from AQA papers.",
+      "notes": "URL confirmed as the official AQA specification page. Specification for first teaching in 2016 (version 1.1, 12 September 2023). Questions keep to compulsory content and avoid optional case studies."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q-gb-gcse-11-math-001",
+      "topicId": "gb-gcse-11-math-number",
+      "difficulty": 1,
+      "status": "published",
+      "prompt": "Write 0.00052 in standard form.",
+      "options": [
+        { "id": "a", "text": "5.2 × 10⁻³" },
+        { "id": "b", "text": "5.2 × 10⁻⁴" },
+        { "id": "c", "text": "5.2 × 10⁻⁵" },
+        { "id": "d", "text": "5.2 × 10⁴" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The first significant digit, 5, is in the fourth decimal place, so 0.00052 = 5.2 × 10⁻⁴. A small number has a negative power of 10.",
+      "source": { "sourceId": "aqa-gcse-mathematics-8300", "use": "aligned", "reference": "3.1 Number, N9" }
+    },
+    {
+      "id": "q-gb-gcse-11-math-002",
+      "topicId": "gb-gcse-11-math-number",
+      "difficulty": 2,
+      "status": "published",
+      "prompt": "What is the highest common factor (HCF) of 84 and 60?",
+      "options": [
+        { "id": "a", "text": "6" },
+        { "id": "b", "text": "420" },
+        { "id": "c", "text": "12" },
+        { "id": "d", "text": "4" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "84 = 2² × 3 × 7 and 60 = 2² × 3 × 5. The shared prime factors are 2² × 3 = 12. 420 is the lowest common multiple, not the HCF.",
+      "source": { "sourceId": "aqa-gcse-mathematics-8300", "use": "aligned", "reference": "3.1 Number, N4" }
+    },
+    {
+      "id": "q-gb-gcse-11-math-003",
+      "topicId": "gb-gcse-11-math-number",
+      "difficulty": 3,
+      "status": "published",
+      "prompt": "Simplify √50.",
+      "options": [
+        { "id": "a", "text": "5√2" },
+        { "id": "b", "text": "25√2" },
+        { "id": "c", "text": "2√5" },
+        { "id": "d", "text": "10√5" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "50 = 25 × 2, so √50 = √25 × √2 = 5√2.",
+      "source": { "sourceId": "aqa-gcse-mathematics-8300", "use": "aligned", "reference": "3.1 Number, N8" }
+    },
+    {
+      "id": "q-gb-gcse-11-math-004",
+      "topicId": "gb-gcse-11-math-number",
+      "difficulty": 5,
+      "status": "published",
+      "prompt": "Work out 27^(−2/3).",
+      "options": [
+        { "id": "a", "text": "−9" },
+        { "id": "b", "text": "9" },
+        { "id": "c", "text": "−18" },
+        { "id": "d", "text": "1/9" }
+      ],
+      "correctOptionId": "d",
+      "explanation": "The cube root of 27 is 3, and 3² = 9. The negative power means the reciprocal, so 27^(−2/3) = 1/9. A negative index never makes the answer negative.",
+      "source": { "sourceId": "aqa-gcse-mathematics-8300", "use": "aligned", "reference": "3.1 Number, N7" }
+    },
+    {
+      "id": "q-gb-gcse-11-math-005",
+      "topicId": "gb-gcse-11-math-algebra",
+      "difficulty": 1,
+      "status": "published",
+      "prompt": "What is the nth term of the sequence 5, 8, 11, 14, …?",
+      "options": [
+        { "id": "a", "text": "3n + 5" },
+        { "id": "b", "text": "n + 3" },
+        { "id": "c", "text": "3n + 2" },
+        { "id": "d", "text": "5n + 3" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The terms go up by 3, so the nth term starts 3n. When n = 1, 3n = 3, and the first term is 5, so add 2: 3n + 2.",
+      "source": { "sourceId": "aqa-gcse-mathematics-8300", "use": "aligned", "reference": "3.2 Algebra, A25" }
+    },
+    {
+      "id": "q-gb-gcse-11-math-006",
+      "topicId": "gb-gcse-11-math-algebra",
+      "difficulty": 2,
+      "status": "published",
+      "prompt": "Expand and simplify (x + 3)(x − 5).",
+      "options": [
+        { "id": "a", "text": "x² − 2x − 15" },
+        { "id": "b", "text": "x² + 2x − 15" },
+        { "id": "c", "text": "x² − 2x + 15" },
+        { "id": "d", "text": "x² − 8x − 15" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "x × x = x², x × (−5) + 3 × x = −2x, and 3 × (−5) = −15. So (x + 3)(x − 5) = x² − 2x − 15.",
+      "source": { "sourceId": "aqa-gcse-mathematics-8300", "use": "aligned", "reference": "3.2 Algebra, A4" }
+    },
+    {
+      "id": "q-gb-gcse-11-math-007",
+      "topicId": "gb-gcse-11-math-algebra",
+      "difficulty": 3,
+      "status": "published",
+      "prompt": "Solve x² − 5x + 6 = 0.",
+      "options": [
+        { "id": "a", "text": "x = −2 or x = −3" },
+        { "id": "b", "text": "x = 1 or x = 6" },
+        { "id": "c", "text": "x = −1 or x = 6" },
+        { "id": "d", "text": "x = 2 or x = 3" }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Two numbers that multiply to 6 and add to −5 are −2 and −3, so x² − 5x + 6 = (x − 2)(x − 3) = 0, giving x = 2 or x = 3.",
+      "source": { "sourceId": "aqa-gcse-mathematics-8300", "use": "aligned", "reference": "3.2 Algebra, A18" }
+    },
+    {
+      "id": "q-gb-gcse-11-math-008",
+      "topicId": "gb-gcse-11-math-algebra",
+      "difficulty": 4,
+      "status": "published",
+      "prompt": "f(x) = 2x + 1 and g(x) = x². What is fg(3)?",
+      "options": [
+        { "id": "a", "text": "49" },
+        { "id": "b", "text": "19" },
+        { "id": "c", "text": "36" },
+        { "id": "d", "text": "16" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "fg(3) means f(g(3)): apply g first. g(3) = 9, then f(9) = 2 × 9 + 1 = 19. Applying f first gives gf(3) = 7² = 49.",
+      "source": { "sourceId": "aqa-gcse-mathematics-8300", "use": "aligned", "reference": "3.2 Algebra, A7" }
+    },
+    {
+      "id": "q-gb-gcse-11-math-009",
+      "topicId": "gb-gcse-11-math-ratio-proportion",
+      "difficulty": 1,
+      "status": "published",
+      "prompt": "£40 is shared in the ratio 3 : 5. How much is the smaller share?",
+      "options": [
+        { "id": "a", "text": "£15" },
+        { "id": "b", "text": "£25" },
+        { "id": "c", "text": "£8" },
+        { "id": "d", "text": "£24" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "3 + 5 = 8 parts, so one part is £40 ÷ 8 = £5. The smaller share is 3 × £5 = £15 (the larger is £25).",
+      "source": { "sourceId": "aqa-gcse-mathematics-8300", "use": "aligned", "reference": "3.3 Ratio, proportion and rates of change, R5" }
+    },
+    {
+      "id": "q-gb-gcse-11-math-010",
+      "topicId": "gb-gcse-11-math-ratio-proportion",
+      "difficulty": 3,
+      "status": "published",
+      "prompt": "After a 20% discount, a jacket costs £48. What was the price before the discount?",
+      "options": [
+        { "id": "a", "text": "£57.60" },
+        { "id": "b", "text": "£58" },
+        { "id": "c", "text": "£60" },
+        { "id": "d", "text": "£38.40" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "£48 is 80% of the original price, so the original is £48 ÷ 0.8 = £60. Adding 20% of £48 (giving £57.60) is a common mistake.",
+      "source": { "sourceId": "aqa-gcse-mathematics-8300", "use": "aligned", "reference": "3.3 Ratio, proportion and rates of change, R9" }
+    },
+    {
+      "id": "q-gb-gcse-11-math-011",
+      "topicId": "gb-gcse-11-math-ratio-proportion",
+      "difficulty": 4,
+      "status": "published",
+      "prompt": "y is inversely proportional to x. When x = 2, y = 9. What is y when x = 6?",
+      "options": [
+        { "id": "a", "text": "27" },
+        { "id": "b", "text": "3" },
+        { "id": "c", "text": "1" },
+        { "id": "d", "text": "4.5" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "y = k/x, so k = 2 × 9 = 18. When x = 6, y = 18 ÷ 6 = 3. Multiplying x by 3 divides y by 3.",
+      "source": { "sourceId": "aqa-gcse-mathematics-8300", "use": "aligned", "reference": "3.3 Ratio, proportion and rates of change, R13" }
+    },
+    {
+      "id": "q-gb-gcse-11-math-012",
+      "topicId": "gb-gcse-11-math-geometry-measures",
+      "difficulty": 2,
+      "status": "published",
+      "prompt": "What is the size of each interior angle of a regular hexagon?",
+      "options": [
+        { "id": "a", "text": "60°" },
+        { "id": "b", "text": "108°" },
+        { "id": "c", "text": "135°" },
+        { "id": "d", "text": "120°" }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Interior angles of a hexagon add up to (6 − 2) × 180° = 720°, so each is 720° ÷ 6 = 120°. 60° is the exterior angle.",
+      "source": { "sourceId": "aqa-gcse-mathematics-8300", "use": "aligned", "reference": "3.4 Geometry and measures, G3" }
+    },
+    {
+      "id": "q-gb-gcse-11-math-013",
+      "topicId": "gb-gcse-11-math-geometry-measures",
+      "difficulty": 4,
+      "status": "published",
+      "prompt": "A and B lie on a circle with centre O. Angle AOB = 140°. Point C is on the major arc AB. What is angle ACB?",
+      "options": [
+        { "id": "a", "text": "70°" },
+        { "id": "b", "text": "140°" },
+        { "id": "c", "text": "110°" },
+        { "id": "d", "text": "40°" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The angle at the centre is twice the angle at the circumference subtended by the same arc, so angle ACB = 140° ÷ 2 = 70°.",
+      "source": { "sourceId": "aqa-gcse-mathematics-8300", "use": "aligned", "reference": "3.4 Geometry and measures, G10" }
+    },
+    {
+      "id": "q-gb-gcse-11-math-014",
+      "topicId": "gb-gcse-11-math-geometry-measures",
+      "difficulty": 5,
+      "status": "published",
+      "prompt": "Two similar solids have lengths in the ratio 1 : 3. The smaller has a volume of 10 cm³. What is the volume of the larger?",
+      "options": [
+        { "id": "a", "text": "30 cm³" },
+        { "id": "b", "text": "90 cm³" },
+        { "id": "c", "text": "810 cm³" },
+        { "id": "d", "text": "270 cm³" }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Volumes of similar solids scale by the cube of the length scale factor: 3³ = 27, so the larger volume is 10 × 27 = 270 cm³. 90 cm³ uses the area factor 3² by mistake.",
+      "source": { "sourceId": "aqa-gcse-mathematics-8300", "use": "aligned", "reference": "3.4 Geometry and measures, G19" }
+    },
+    {
+      "id": "q-gb-gcse-11-math-015",
+      "topicId": "gb-gcse-11-math-probability",
+      "difficulty": 1,
+      "status": "published",
+      "prompt": "The probability that a biased spinner lands on red is 0.35. What is the probability that it does not land on red?",
+      "options": [
+        { "id": "a", "text": "0.35" },
+        { "id": "b", "text": "0.75" },
+        { "id": "c", "text": "0.65" },
+        { "id": "d", "text": "0.6" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "An event either happens or it does not, so the two probabilities add up to 1: 1 − 0.35 = 0.65.",
+      "source": { "sourceId": "aqa-gcse-mathematics-8300", "use": "aligned", "reference": "3.5 Probability, P4" }
+    },
+    {
+      "id": "q-gb-gcse-11-math-016",
+      "topicId": "gb-gcse-11-math-probability",
+      "difficulty": 4,
+      "status": "published",
+      "prompt": "A bag has 3 red and 2 blue counters. Two counters are taken at random without replacement. What is the probability that both are red?",
+      "options": [
+        { "id": "a", "text": "9/25" },
+        { "id": "b", "text": "3/10" },
+        { "id": "c", "text": "6/25" },
+        { "id": "d", "text": "2/5" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "First red: 3/5. One red is gone, so second red: 2/4. Multiply: 3/5 × 2/4 = 6/20 = 3/10. 9/25 would be the answer with replacement.",
+      "source": { "sourceId": "aqa-gcse-mathematics-8300", "use": "aligned", "reference": "3.5 Probability, P8" }
+    },
+    {
+      "id": "q-gb-gcse-11-math-017",
+      "topicId": "gb-gcse-11-math-statistics",
+      "difficulty": 2,
+      "status": "published",
+      "prompt": "What is the median of 7, 3, 9, 4, 12, 5?",
+      "options": [
+        { "id": "a", "text": "6" },
+        { "id": "b", "text": "6.5" },
+        { "id": "c", "text": "6.7" },
+        { "id": "d", "text": "9" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "In order: 3, 4, 5, 7, 9, 12. With six values the median is halfway between the 3rd and 4th: (5 + 7) ÷ 2 = 6. The mean is about 6.7 and the range is 9.",
+      "source": { "sourceId": "aqa-gcse-mathematics-8300", "use": "aligned", "reference": "3.6 Statistics, S4" }
+    },
+    {
+      "id": "q-gb-gcse-11-math-018",
+      "topicId": "gb-gcse-11-math-statistics",
+      "difficulty": 5,
+      "status": "published",
+      "prompt": "In a histogram, the class 10 < t ≤ 30 has a frequency density of 2.5. What is the frequency of this class?",
+      "options": [
+        { "id": "a", "text": "75" },
+        { "id": "b", "text": "8" },
+        { "id": "c", "text": "50" },
+        { "id": "d", "text": "25" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Frequency = frequency density × class width. The class width is 30 − 10 = 20, so the frequency is 2.5 × 20 = 50.",
+      "source": { "sourceId": "aqa-gcse-mathematics-8300", "use": "aligned", "reference": "3.6 Statistics, S3" }
+    },
+    {
+      "id": "q-gb-gcse-11-bio-001",
+      "topicId": "gb-gcse-11-bio-cell-biology",
+      "difficulty": 1,
+      "status": "published",
+      "prompt": "Which part of a plant cell is where photosynthesis takes place?",
+      "options": [
+        { "id": "a", "text": "Mitochondrion" },
+        { "id": "b", "text": "Ribosome" },
+        { "id": "c", "text": "Nucleus" },
+        { "id": "d", "text": "Chloroplast" }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Chloroplasts contain chlorophyll, which absorbs light for photosynthesis. Mitochondria are where aerobic respiration happens.",
+      "source": { "sourceId": "aqa-gcse-combined-science-trilogy-8464", "use": "aligned", "reference": "4.1 Cell biology, 4.1.1.2" }
+    },
+    {
+      "id": "q-gb-gcse-11-bio-002",
+      "topicId": "gb-gcse-11-bio-cell-biology",
+      "difficulty": 2,
+      "status": "published",
+      "prompt": "In osmosis, which way does water move across a partially permeable membrane?",
+      "options": [
+        { "id": "a", "text": "From a dilute solution to a more concentrated one" },
+        { "id": "b", "text": "From a concentrated solution to a more dilute one" },
+        { "id": "c", "text": "Only from inside cells to outside cells" },
+        { "id": "d", "text": "Against the gradient, using energy from respiration" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Osmosis is the diffusion of water from a dilute solution to a more concentrated solution through a partially permeable membrane. It is passive, so it needs no energy.",
+      "source": { "sourceId": "aqa-gcse-combined-science-trilogy-8464", "use": "aligned", "reference": "4.1 Cell biology, 4.1.3.2" }
+    },
+    {
+      "id": "q-gb-gcse-11-bio-003",
+      "topicId": "gb-gcse-11-bio-cell-biology",
+      "difficulty": 5,
+      "status": "published",
+      "prompt": "A cell 10 µm long appears 5 mm long in a micrograph. What is the magnification?",
+      "options": [
+        { "id": "a", "text": "×50" },
+        { "id": "b", "text": "×0.5" },
+        { "id": "c", "text": "×500" },
+        { "id": "d", "text": "×5000" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Magnification = image size ÷ real size, in the same units. 5 mm = 5000 µm, so 5000 ÷ 10 = ×500.",
+      "source": { "sourceId": "aqa-gcse-combined-science-trilogy-8464", "use": "aligned", "reference": "4.1 Cell biology, 4.1.1.5" }
+    },
+    {
+      "id": "q-gb-gcse-11-bio-004",
+      "topicId": "gb-gcse-11-bio-organisation",
+      "difficulty": 3,
+      "status": "published",
+      "prompt": "Which blood vessel carries blood from the heart to the lungs?",
+      "options": [
+        { "id": "a", "text": "Pulmonary vein" },
+        { "id": "b", "text": "Pulmonary artery" },
+        { "id": "c", "text": "Aorta" },
+        { "id": "d", "text": "Vena cava" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Arteries carry blood away from the heart. The pulmonary artery takes deoxygenated blood from the right ventricle to the lungs; the pulmonary vein brings it back.",
+      "source": { "sourceId": "aqa-gcse-combined-science-trilogy-8464", "use": "aligned", "reference": "4.2 Organisation, 4.2.2.2" }
+    },
+    {
+      "id": "q-gb-gcse-11-bio-005",
+      "topicId": "gb-gcse-11-bio-infection-response",
+      "difficulty": 2,
+      "status": "published",
+      "prompt": "In vaccination, what is introduced into the body?",
+      "options": [
+        { "id": "a", "text": "Antibiotics that kill the pathogen" },
+        { "id": "b", "text": "White blood cells from a donor" },
+        { "id": "c", "text": "Painkillers that reduce symptoms" },
+        { "id": "d", "text": "Small amounts of dead or inactive pathogen" }
+      ],
+      "correctOptionId": "d",
+      "explanation": "A vaccine contains small amounts of a dead or inactive pathogen. White blood cells make antibodies against it, so a later infection is fought off quickly.",
+      "source": { "sourceId": "aqa-gcse-combined-science-trilogy-8464", "use": "aligned", "reference": "4.3 Infection and response, 4.3.1.7" }
+    },
+    {
+      "id": "q-gb-gcse-11-bio-006",
+      "topicId": "gb-gcse-11-bio-bioenergetics",
+      "difficulty": 3,
+      "status": "published",
+      "prompt": "What is produced by anaerobic respiration in human muscle cells?",
+      "options": [
+        { "id": "a", "text": "Ethanol and carbon dioxide" },
+        { "id": "b", "text": "Lactic acid" },
+        { "id": "c", "text": "Carbon dioxide and water" },
+        { "id": "d", "text": "Glucose and oxygen" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "In muscles, anaerobic respiration is glucose → lactic acid. Ethanol and carbon dioxide come from anaerobic respiration in yeast; carbon dioxide and water come from aerobic respiration.",
+      "source": { "sourceId": "aqa-gcse-combined-science-trilogy-8464", "use": "aligned", "reference": "4.4 Bioenergetics, 4.4.2.1" }
+    },
+    {
+      "id": "q-gb-gcse-11-bio-007",
+      "topicId": "gb-gcse-11-bio-homeostasis-response",
+      "difficulty": 4,
+      "status": "published",
+      "prompt": "Which hormone stimulates the basal metabolic rate?",
+      "options": [
+        { "id": "a", "text": "Thyroxine" },
+        { "id": "b", "text": "Adrenaline" },
+        { "id": "c", "text": "Insulin" },
+        { "id": "d", "text": "Oestrogen" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Thyroxine from the thyroid gland stimulates the basal metabolic rate, and its level is controlled by negative feedback. Adrenaline comes from the adrenal glands.",
+      "source": { "sourceId": "aqa-gcse-combined-science-trilogy-8464", "use": "aligned", "reference": "4.5 Homeostasis and response, 4.5.3.6 (HT only)" }
+    },
+    {
+      "id": "q-gb-gcse-11-bio-008",
+      "topicId": "gb-gcse-11-bio-inheritance-variation-evolution",
+      "difficulty": 4,
+      "status": "published",
+      "prompt": "Cystic fibrosis is caused by a recessive allele. Both parents are carriers. What is the probability that their child has cystic fibrosis?",
+      "options": [
+        { "id": "a", "text": "1 in 2 (50%)" },
+        { "id": "b", "text": "3 in 4 (75%)" },
+        { "id": "c", "text": "1 in 4 (25%)" },
+        { "id": "d", "text": "0 (0%)" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Ff × Ff gives FF, Ff, Ff and ff. Only ff (two recessive alleles) has the disorder, so the probability is 1 in 4. Each child also has a 1 in 2 chance of being a carrier.",
+      "source": { "sourceId": "aqa-gcse-combined-science-trilogy-8464", "use": "aligned", "reference": "4.6 Inheritance, variation and evolution, 4.6.1.4 and 4.6.1.5" }
+    },
+    {
+      "id": "q-gb-gcse-11-chem-001",
+      "topicId": "gb-gcse-11-chem-atomic-structure-periodic-table",
+      "difficulty": 1,
+      "status": "published",
+      "prompt": "Which subatomic particle has a relative charge of −1?",
+      "options": [
+        { "id": "a", "text": "Proton" },
+        { "id": "b", "text": "Neutron" },
+        { "id": "c", "text": "Electron" },
+        { "id": "d", "text": "Nucleus" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Electrons have a relative charge of −1, protons +1 and neutrons 0.",
+      "source": { "sourceId": "aqa-gcse-combined-science-trilogy-8464", "use": "aligned", "reference": "5.1 Atomic structure and the periodic table, 5.1.1.4" }
+    },
+    {
+      "id": "q-gb-gcse-11-chem-002",
+      "topicId": "gb-gcse-11-chem-atomic-structure-periodic-table",
+      "difficulty": 3,
+      "status": "published",
+      "prompt": "Why does reactivity increase down Group 1?",
+      "options": [
+        { "id": "a", "text": "Atoms have more electrons in their outer shell" },
+        { "id": "b", "text": "The outer electron is closer to the nucleus" },
+        { "id": "c", "text": "Atoms gain an extra electron more easily" },
+        { "id": "d", "text": "The outer electron is further from the nucleus" }
+      ],
+      "correctOptionId": "d",
+      "explanation": "All Group 1 atoms have one outer electron. Down the group it is further from the nucleus and more shielded, so it is attracted less and lost more easily.",
+      "source": { "sourceId": "aqa-gcse-combined-science-trilogy-8464", "use": "aligned", "reference": "5.1 Atomic structure and the periodic table, 5.1.2.5" }
+    },
+    {
+      "id": "q-gb-gcse-11-chem-003",
+      "topicId": "gb-gcse-11-chem-quantitative-chemistry",
+      "difficulty": 2,
+      "status": "published",
+      "prompt": "Ar: Ca = 40, C = 12, O = 16. What is the relative formula mass (Mr) of calcium carbonate, CaCO₃?",
+      "options": [
+        { "id": "a", "text": "100" },
+        { "id": "b", "text": "68" },
+        { "id": "c", "text": "116" },
+        { "id": "d", "text": "52" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Mr = 40 + 12 + (3 × 16) = 40 + 12 + 48 = 100. Counting only one oxygen gives 68.",
+      "source": { "sourceId": "aqa-gcse-combined-science-trilogy-8464", "use": "aligned", "reference": "5.3 Quantitative chemistry, 5.3.1.2" }
+    },
+    {
+      "id": "q-gb-gcse-11-chem-004",
+      "topicId": "gb-gcse-11-chem-quantitative-chemistry",
+      "difficulty": 4,
+      "status": "published",
+      "prompt": "How many moles are in 8.8 g of carbon dioxide (Mr = 44)?",
+      "options": [
+        { "id": "a", "text": "5" },
+        { "id": "b", "text": "0.2" },
+        { "id": "c", "text": "0.5" },
+        { "id": "d", "text": "2" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Moles = mass ÷ Mr = 8.8 ÷ 44 = 0.2 mol. Dividing the wrong way round gives 5.",
+      "source": { "sourceId": "aqa-gcse-combined-science-trilogy-8464", "use": "aligned", "reference": "5.3 Quantitative chemistry, 5.3.2.1 (HT only)" }
+    },
+    {
+      "id": "q-gb-gcse-11-chem-005",
+      "topicId": "gb-gcse-11-chem-chemical-changes",
+      "difficulty": 5,
+      "status": "published",
+      "prompt": "The pH of an acid solution decreases by 1. How does its hydrogen ion concentration change?",
+      "options": [
+        { "id": "a", "text": "It doubles" },
+        { "id": "b", "text": "It increases by a factor of 10" },
+        { "id": "c", "text": "It increases by a factor of 100" },
+        { "id": "d", "text": "It decreases by a factor of 10" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The pH scale is logarithmic: each decrease of 1 pH unit means the hydrogen ion concentration is 10 times greater. A lower pH means more H⁺ ions, not fewer.",
+      "source": { "sourceId": "aqa-gcse-combined-science-trilogy-8464", "use": "aligned", "reference": "5.4 Chemical changes, 5.4.2.5 (HT only)" }
+    },
+    {
+      "id": "q-gb-gcse-11-chem-006",
+      "topicId": "gb-gcse-11-chem-rate-extent",
+      "difficulty": 3,
+      "status": "published",
+      "prompt": "How does a catalyst increase the rate of a reaction?",
+      "options": [
+        { "id": "a", "text": "It raises the temperature of the reacting mixture" },
+        { "id": "b", "text": "It gives the particles more kinetic energy" },
+        { "id": "c", "text": "It increases the concentration of the reactants" },
+        { "id": "d", "text": "It provides a pathway with a lower activation energy" }
+      ],
+      "correctOptionId": "d",
+      "explanation": "A catalyst provides a different reaction pathway with a lower activation energy, so more collisions succeed. It is not used up and does not heat the mixture.",
+      "source": { "sourceId": "aqa-gcse-combined-science-trilogy-8464", "use": "aligned", "reference": "5.6 The rate and extent of chemical change, 5.6.1.4" }
+    },
+    {
+      "id": "q-gb-gcse-11-chem-007",
+      "topicId": "gb-gcse-11-chem-organic-chemistry",
+      "difficulty": 2,
+      "status": "published",
+      "prompt": "What is the general formula of the alkanes?",
+      "options": [
+        { "id": "a", "text": "CₙH₂ₙ" },
+        { "id": "b", "text": "CₙH₂ₙ₋₂" },
+        { "id": "c", "text": "CₙH₂ₙ₊₂" },
+        { "id": "d", "text": "CₙHₙ" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Alkanes are saturated hydrocarbons with the general formula CₙH₂ₙ₊₂, e.g. methane CH₄ and ethane C₂H₆. CₙH₂ₙ is the formula of the alkenes.",
+      "source": { "sourceId": "aqa-gcse-combined-science-trilogy-8464", "use": "aligned", "reference": "5.7 Organic chemistry, 5.7.1.1" }
+    },
+    {
+      "id": "q-gb-gcse-11-chem-008",
+      "topicId": "gb-gcse-11-chem-chemical-analysis",
+      "difficulty": 1,
+      "status": "published",
+      "prompt": "What is the positive test for carbon dioxide?",
+      "options": [
+        { "id": "a", "text": "Limewater turns milky (cloudy)" },
+        { "id": "b", "text": "A lighted splint burns with a squeaky pop" },
+        { "id": "c", "text": "A glowing splint relights" },
+        { "id": "d", "text": "Damp litmus paper is bleached" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Carbon dioxide turns limewater milky. A squeaky pop shows hydrogen, a relighting glowing splint shows oxygen, and bleached damp litmus paper shows chlorine.",
+      "source": { "sourceId": "aqa-gcse-combined-science-trilogy-8464", "use": "aligned", "reference": "5.8 Chemical analysis, 5.8.2.3" }
+    },
+    {
+      "id": "q-gb-gcse-11-phys-001",
+      "topicId": "gb-gcse-11-phys-electricity",
+      "difficulty": 1,
+      "status": "published",
+      "prompt": "A current of 2 A flows through a 6 Ω resistor. What is the potential difference across it?",
+      "options": [
+        { "id": "a", "text": "12 V" },
+        { "id": "b", "text": "3 V" },
+        { "id": "c", "text": "8 V" },
+        { "id": "d", "text": "0.33 V" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Potential difference = current × resistance: V = I × R = 2 × 6 = 12 V.",
+      "source": { "sourceId": "aqa-gcse-combined-science-trilogy-8464", "use": "aligned", "reference": "6.2 Electricity, 6.2.1.3" }
+    },
+    {
+      "id": "q-gb-gcse-11-phys-002",
+      "topicId": "gb-gcse-11-phys-energy",
+      "difficulty": 2,
+      "status": "published",
+      "prompt": "A 2 kg ball moves at 3 m/s. How much kinetic energy does it have?",
+      "options": [
+        { "id": "a", "text": "6 J" },
+        { "id": "b", "text": "18 J" },
+        { "id": "c", "text": "9 J" },
+        { "id": "d", "text": "3 J" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Kinetic energy = ½ × m × v² = ½ × 2 × 3² = ½ × 2 × 9 = 9 J. Forgetting the ½ gives 18 J.",
+      "source": { "sourceId": "aqa-gcse-combined-science-trilogy-8464", "use": "aligned", "reference": "6.1 Energy, 6.1.1.2" }
+    },
+    {
+      "id": "q-gb-gcse-11-phys-003",
+      "topicId": "gb-gcse-11-phys-waves",
+      "difficulty": 2,
+      "status": "published",
+      "prompt": "A wave has a frequency of 25 Hz and a wavelength of 4 m. What is its wave speed?",
+      "options": [
+        { "id": "a", "text": "6.25 m/s" },
+        { "id": "b", "text": "29 m/s" },
+        { "id": "c", "text": "0.16 m/s" },
+        { "id": "d", "text": "100 m/s" }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Wave speed = frequency × wavelength: v = f × λ = 25 × 4 = 100 m/s.",
+      "source": { "sourceId": "aqa-gcse-combined-science-trilogy-8464", "use": "aligned", "reference": "6.6 Waves, 6.6.1.2" }
+    },
+    {
+      "id": "q-gb-gcse-11-phys-004",
+      "topicId": "gb-gcse-11-phys-particle-model",
+      "difficulty": 3,
+      "status": "published",
+      "prompt": "A block has a mass of 12 kg and a volume of 0.004 m³. What is its density?",
+      "options": [
+        { "id": "a", "text": "0.048 kg/m³" },
+        { "id": "b", "text": "3000 kg/m³" },
+        { "id": "c", "text": "300 kg/m³" },
+        { "id": "d", "text": "48 kg/m³" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Density = mass ÷ volume = 12 ÷ 0.004 = 3000 kg/m³. Multiplying instead of dividing gives 0.048.",
+      "source": { "sourceId": "aqa-gcse-combined-science-trilogy-8464", "use": "aligned", "reference": "6.3 Particle model of matter, 6.3.1.1" }
+    },
+    {
+      "id": "q-gb-gcse-11-phys-005",
+      "topicId": "gb-gcse-11-phys-atomic-structure",
+      "difficulty": 3,
+      "status": "published",
+      "prompt": "A radioactive sample has an activity of 800 Bq and a half-life of 2 hours. What is its activity after 6 hours?",
+      "options": [
+        { "id": "a", "text": "200 Bq" },
+        { "id": "b", "text": "50 Bq" },
+        { "id": "c", "text": "100 Bq" },
+        { "id": "d", "text": "400 Bq" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "6 hours is 3 half-lives. The activity halves each time: 800 → 400 → 200 → 100 Bq.",
+      "source": { "sourceId": "aqa-gcse-combined-science-trilogy-8464", "use": "aligned", "reference": "6.4 Atomic structure, 6.4.2.3" }
+    },
+    {
+      "id": "q-gb-gcse-11-phys-006",
+      "topicId": "gb-gcse-11-phys-forces",
+      "difficulty": 3,
+      "status": "published",
+      "prompt": "A resultant force of 3000 N acts on a car of mass 1200 kg. What is its acceleration?",
+      "options": [
+        { "id": "a", "text": "2.5 m/s²" },
+        { "id": "b", "text": "0.4 m/s²" },
+        { "id": "c", "text": "25 m/s²" },
+        { "id": "d", "text": "1.25 m/s²" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Newton's second law: F = m × a, so a = F ÷ m = 3000 ÷ 1200 = 2.5 m/s².",
+      "source": { "sourceId": "aqa-gcse-combined-science-trilogy-8464", "use": "aligned", "reference": "6.5 Forces, 6.5.4.2.2" }
+    },
+    {
+      "id": "q-gb-gcse-11-phys-007",
+      "topicId": "gb-gcse-11-phys-forces",
+      "difficulty": 4,
+      "status": "published",
+      "prompt": "A car travelling at 20 m/s decelerates uniformly at 5 m/s² until it stops. How far does it travel while braking?",
+      "options": [
+        { "id": "a", "text": "80 m" },
+        { "id": "b", "text": "4 m" },
+        { "id": "c", "text": "10 m" },
+        { "id": "d", "text": "40 m" }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Use v² − u² = 2as: 0 − 20² = 2 × (−5) × s, so s = 400 ÷ 10 = 40 m. (It stops in 4 s at an average speed of 10 m/s.)",
+      "source": { "sourceId": "aqa-gcse-combined-science-trilogy-8464", "use": "aligned", "reference": "6.5 Forces, 6.5.4.1.5" }
+    },
+    {
+      "id": "q-gb-gcse-11-phys-008",
+      "topicId": "gb-gcse-11-phys-forces",
+      "difficulty": 5,
+      "status": "published",
+      "prompt": "A 2 kg trolley moving at 3 m/s hits a stationary 1 kg trolley and they stick together. What is their speed just after?",
+      "options": [
+        { "id": "a", "text": "3 m/s" },
+        { "id": "b", "text": "2 m/s" },
+        { "id": "c", "text": "1.5 m/s" },
+        { "id": "d", "text": "6 m/s" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Momentum is conserved. Before: 2 × 3 = 6 kg m/s. After, the joined mass is 3 kg, so v = 6 ÷ 3 = 2 m/s.",
+      "source": { "sourceId": "aqa-gcse-combined-science-trilogy-8464", "use": "aligned", "reference": "6.5 Forces, 6.5.5.2 (HT only)" }
+    },
+    {
+      "id": "q-gb-gcse-11-geog-001",
+      "topicId": "gb-gcse-11-geog-natural-hazards",
+      "difficulty": 2,
+      "status": "published",
+      "prompt": "At which type of plate margin do two plates slide past each other?",
+      "options": [
+        { "id": "a", "text": "Constructive" },
+        { "id": "b", "text": "Conservative" },
+        { "id": "c", "text": "Destructive" },
+        { "id": "d", "text": "Collision" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "At a conservative margin plates move past each other, causing earthquakes but no volcanoes. Plates move apart at constructive margins and together at destructive ones.",
+      "source": { "sourceId": "aqa-gcse-geography-8035", "use": "aligned", "reference": "3.1.1 The challenge of natural hazards, 3.1.1.2" }
+    },
+    {
+      "id": "q-gb-gcse-11-geog-002",
+      "topicId": "gb-gcse-11-geog-natural-hazards",
+      "difficulty": 3,
+      "status": "published",
+      "prompt": "In the global atmospheric circulation model, what happens to air at about 30° north and south of the equator?",
+      "options": [
+        { "id": "a", "text": "It rises, giving low pressure and heavy rain" },
+        { "id": "b", "text": "It sinks, giving low pressure and heavy rain" },
+        { "id": "c", "text": "It rises, giving high pressure and clear skies" },
+        { "id": "d", "text": "It sinks, giving high pressure and dry weather" }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Air rising at the equator moves away and sinks at about 30°, creating high pressure and dry conditions. This is why many hot deserts lie near these latitudes.",
+      "source": { "sourceId": "aqa-gcse-geography-8035", "use": "aligned", "reference": "3.1.1 The challenge of natural hazards, 3.1.1.3" }
+    },
+    {
+      "id": "q-gb-gcse-11-geog-003",
+      "topicId": "gb-gcse-11-geog-natural-hazards",
+      "difficulty": 4,
+      "status": "published",
+      "prompt": "Which of these is a mitigation strategy for climate change, rather than an adaptation?",
+      "options": [
+        { "id": "a", "text": "Carbon capture and storage" },
+        { "id": "b", "text": "Building higher sea defences" },
+        { "id": "c", "text": "Growing drought-resistant crops" },
+        { "id": "d", "text": "Storing more water for dry summers" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Mitigation reduces the causes of climate change, e.g. capturing carbon dioxide. Sea defences, drought-resistant crops and water storage are adaptations to its effects.",
+      "source": { "sourceId": "aqa-gcse-geography-8035", "use": "aligned", "reference": "3.1.1 The challenge of natural hazards, 3.1.1.4" }
+    },
+    {
+      "id": "q-gb-gcse-11-geog-004",
+      "topicId": "gb-gcse-11-geog-living-world",
+      "difficulty": 3,
+      "status": "published",
+      "prompt": "Why are tropical rainforest soils often low in nutrients?",
+      "options": [
+        { "id": "a", "text": "Decomposition is very slow in the heat" },
+        { "id": "b", "text": "The ground is frozen for part of the year" },
+        { "id": "c", "text": "Heavy rain washes (leaches) nutrients out" },
+        { "id": "d", "text": "Few leaves ever fall to the forest floor" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Heavy, frequent rainfall leaches nutrients out of the soil. Decomposition is fast in the hot, wet climate, and plants quickly take up the nutrients released, so most are held in the vegetation.",
+      "source": { "sourceId": "aqa-gcse-geography-8035", "use": "aligned", "reference": "3.1.2 The living world, 3.1.2.2" }
+    },
+    {
+      "id": "q-gb-gcse-11-geog-005",
+      "topicId": "gb-gcse-11-geog-uk-physical-landscapes",
+      "difficulty": 1,
+      "status": "published",
+      "prompt": "Where are most of the UK's upland areas found?",
+      "options": [
+        { "id": "a", "text": "In the south and east" },
+        { "id": "b", "text": "Mainly in the Midlands" },
+        { "id": "c", "text": "Along the east coast" },
+        { "id": "d", "text": "In the north and west" }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Upland areas such as the Scottish Highlands, the Lake District, the Pennines and Eryri (Snowdonia) are in the north and west. The south and east are mostly lowland.",
+      "source": { "sourceId": "aqa-gcse-geography-8035", "use": "aligned", "reference": "3.1.3 Physical landscapes in the UK, 3.1.3.1" }
+    },
+    {
+      "id": "q-gb-gcse-11-geog-006",
+      "topicId": "gb-gcse-11-geog-urban-issues",
+      "difficulty": 2,
+      "status": "published",
+      "prompt": "Which of these is a pull factor drawing people from the countryside to a city?",
+      "options": [
+        { "id": "a", "text": "Drought ruining crops in rural areas" },
+        { "id": "b", "text": "Lack of schools in rural villages" },
+        { "id": "c", "text": "Better-paid jobs in the city" },
+        { "id": "d", "text": "Conflict in the countryside" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Pull factors attract people to a place, such as jobs and services in a city. Drought, poor services and conflict in rural areas are push factors that drive people away.",
+      "source": { "sourceId": "aqa-gcse-geography-8035", "use": "aligned", "reference": "3.2.1 Urban issues and challenges" }
+    },
+    {
+      "id": "q-gb-gcse-11-geog-007",
+      "topicId": "gb-gcse-11-geog-changing-economic-world",
+      "difficulty": 3,
+      "status": "published",
+      "prompt": "In stage 2 of the Demographic Transition Model, what happens to birth and death rates?",
+      "options": [
+        { "id": "a", "text": "Both stay high and fluctuate" },
+        { "id": "b", "text": "Birth rate stays high; death rate falls rapidly" },
+        { "id": "c", "text": "Birth rate falls rapidly; death rate falls slowly" },
+        { "id": "d", "text": "Both are low and fluctuate" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "In stage 2 better healthcare and food supply make the death rate fall quickly while the birth rate stays high, so population grows fast. Both high is stage 1; both low is stage 4.",
+      "source": { "sourceId": "aqa-gcse-geography-8035", "use": "aligned", "reference": "3.2.2 The changing economic world" }
+    },
+    {
+      "id": "q-gb-gcse-11-geog-008",
+      "topicId": "gb-gcse-11-geog-resource-management",
+      "difficulty": 3,
+      "status": "published",
+      "prompt": "How has the UK's energy mix changed since 1990?",
+      "options": [
+        { "id": "a", "text": "Coal use has fallen sharply; renewables have grown" },
+        { "id": "b", "text": "Coal has become the largest source of electricity" },
+        { "id": "c", "text": "Renewables have fallen to almost nothing" },
+        { "id": "d", "text": "UK oil and gas output has risen steadily" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The UK has moved away from coal (its last coal power station closed in 2024) and renewables now supply a large share of electricity. North Sea oil and gas output peaked around 2000 and has fallen since, so the UK now imports more.",
+      "source": { "sourceId": "aqa-gcse-geography-8035", "use": "aligned", "reference": "3.2.3 The challenge of resource management, 3.2.3.1" }
+    }
+  ]
+}

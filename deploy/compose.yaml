@@ -1,0 +1,63 @@
+# Volleyland on one VPS: Caddy (TLS, routing) → web + server. Until Postgres arrives, the only
+# server data is the admin settings and question bank files on the server_data volume.
+# Usage (from deploy/):  VOLLEYLAND_VERSION=<git-sha> docker compose up -d --build
+
+name: volleyland
+
+services:
+  proxy:
+    image: caddy:2.10-alpine
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+      - "443:443/udp"
+    environment:
+      VOLLEYLAND_DOMAIN: ${VOLLEYLAND_DOMAIN:?set VOLLEYLAND_DOMAIN}
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on:
+      web:
+        condition: service_healthy
+      server:
+        condition: service_healthy
+    deploy:
+      resources:
+        limits: { cpus: "0.50", memory: 256M }
+
+  web:
+    image: volleyland-web:${VOLLEYLAND_VERSION:?set VOLLEYLAND_VERSION (never latest)}
+    build:
+      context: ..
+      dockerfile: apps/web/Dockerfile
+    restart: unless-stopped
+    expose: ["3000"]
+    deploy:
+      resources:
+        limits: { cpus: "1.00", memory: 512M }
+
+  server:
+    image: volleyland-server:${VOLLEYLAND_VERSION:?set VOLLEYLAND_VERSION (never latest)}
+    build:
+      context: ..
+      dockerfile: apps/server/Dockerfile
+    restart: unless-stopped
+    expose: ["3001"]
+    environment:
+      WEB_ORIGIN: https://${VOLLEYLAND_DOMAIN}
+      DEV_ROOM_CODE: ${DEV_ROOM_CODE:-DEV}
+      ADMIN_TOKEN: ${ADMIN_TOKEN:?set ADMIN_TOKEN (the admin panel is disabled without it)}
+      # MCP (/api/mcp) has no authentication yet: off unless you opt in. See deploy/README.md.
+      MCP_ACCESS: ${MCP_ACCESS:-off}
+    volumes:
+      - server_data:/app/data
+    deploy:
+      resources:
+        limits: { cpus: "1.00", memory: 512M }
+
+volumes:
+  server_data:
+  caddy_data:
+  caddy_config:
