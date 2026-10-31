@@ -17,3 +17,4 @@ apps/server/data/
 
 # Voice Design samples from yarn audio:generate (listen locally, not shipped)
 scripts/audio/previews/
+node_modules

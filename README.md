@@ -127,4 +127,4 @@ See [deploy/README.md](deploy/README.md) for the VPS setup, rollback, and how to
 
 ## Architecture
 
-The target architecture and the phase work items live on the ProvenMap board **volleyland**. Server modules and client folders are named after the board's elements. Contributors using Claude Code should also read [CLAUDE.md](CLAUDE.md).
+The target architecture and the phase work items live on the ProvenMap board **[volleyland](https://provenmap.com/boards/paws/volleyland-a-multiplayer-learning-game)**.
